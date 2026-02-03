@@ -1,0 +1,9 @@
+{
+  "name": "gemini-image-gen",
+  "version": "1.0.0",
+  "description": "Generate stunning images using Google's Gemini 3 Pro Image model with pro-level prompt optimization based on 1,186 viral prompts",
+  "author": {
+    "name": "Claude Code User"
+  },
+  "keywords": ["image-generation", "gemini", "ai-art", "prompt-engineering", "nanobanana"]
+}

@@ -1,0 +1,1046 @@
+{
+  "food": [
+    {
+      "rank": 1,
+      "likes": 1034,
+      "prompt": "{\n  \"global_settings\": {\n    \"resolution\": \"8K ultra high definition\",\n    \"aspect_ratio\": \"3:4\",\n    \"camera_style\": \"studio food photography with cinematic lighting\",\n    \"depth_of_field\": \"shallow depth of field, sharp subject, soft background\",\n    \"lighting\": \"soft directional key light, subtle rim light, controlled highlights\",\n    \"style\": \"hyper-realistic food illustration with editorial infographic overlays\",\n    \"composition_rules\": [\n      \"no zoom\",\n      \"no crop\",\n      \"center-weighted vertical composition\",\n      \"floating elements frozen in motion\"\n    ],\n    \"text_design\": {\n",
+      "techniques": [
+        "rim/backlighting",
+        "depth of field",
+        "artificial lighting",
+        "hard lighting",
+        "telephoto"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 671,
+      "prompt": "Create a hyper-realistic exploded vertical infographic composition of [FOOD].\nAt the top, characteristic particles, droplets, or garnishes associated with the food, frozen mid-air.\nBelow it, the primary surface or topping layer with rich texture and realistic material detail.\nUnderneath, the core ingredient layer showing structure, depth, and natural variation.\nBelow that, the supporting base or interior layer, slightly separated to reveal construction.\nAt the bottom, a minimal plate, bowl, cup, or base appropriate to the food’s presentation.\nPure white background, soft studio lighting, subtle",
+      "techniques": [
+        "macro/closeup",
+        "sharp focus",
+        "texture emphasis",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 563,
+      "prompt": "{\n  \"aspect_ratio\": \"3:4\",\n  \"render_mode\": \"raw\",\n  \"series\": [\n    {\n      \"index\": \"1/5\",\n      \"prompt\": \"two hands pulling apart a hot freshly baked pizza slice, long elastic mozzarella cheese stretch between the slice and the pie, blistered crust edges, steam rising, crumbs falling mid-air, warm cinematic light, ultra high-detail food action photography\",\n      \"category\": \"cheese pull\",\n      \"lighting\": \"warm cinematic oven light\",\n      \"detail_level\": \"ultra-detailed\"\n    },\n    {\n      \"index\": \"2/5\",\n      \"prompt\": \"two hands pulling apart a syrup-soaked baklava piece, thin crispy",
+      "techniques": [
+        "artificial lighting",
+        "sharp focus",
+        "texture emphasis",
+        "centered composition",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 465,
+      "prompt": "IMAGE 1 - Ultra-realistic food photography of a prepared creamy white sauce penne pasta served in a minimal ceramic bowl. Perfectly cooked penne coated evenly in rich, glossy cream sauce, topped with freshly grated parmesan cheese and finely chopped green herbs. Clean white studio background, soft diffused lighting, gentle shadows under the bowl, natural highlights on the sauce, realistic texture and thickness. Centered composition, shallow depth of field, premium restaurant-style presentation, high-detail food styling, 8K quality, sharp focus, no text, no labels, no hands, no props, no waterm",
+      "techniques": [
+        "depth of field",
+        "hyperrealistic",
+        "centered composition",
+        "soft lighting",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 386,
+      "prompt": "{\n  \"model\": \"Nano Banana / Gemini-style\",\n  \"aspect_ratio\": \"3:4\",\n  \"render_mode\": \"raw\",\n  \"series\": [\n    {\n      \"index\": \"1/5\",\n      \"prompt\": \"two hands pulling apart a grilled cheese sandwich, strands of melted cheddar stretching dramatically between the halves, toasted bread edges crisp and golden, crumbs falling mid-air, warm cozy light, cinematic food action photography\",\n      \"category\": \"cheese pull\",\n      \"lighting\": \"warm cozy cinematic light\",\n      \"detail_level\": \"high-detail\"\n    },\n    {\n      \"index\": \"2/5\",\n      \"prompt\": \"two hands breaking a warm chocolate chip cook",
+      "techniques": [
+        "array/list format",
+        "artificial lighting",
+        "sharp focus",
+        "golden hour",
+        "JSON structure"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 359,
+      "prompt": "\"Macro food photography of a crispy martabak telur tearing open mid-air, thin golden wrapper shattering with a crack, hot filling of minced beef, scallions, and egg bursting outward. Flecks of fried onion and pepper suspended in motion, steam visible, glossy oil sheen catching the light. Warm Indonesian street-stall lighting, tungsten + charcoal warmth, dramatic rim light, ultra high texture detail (bubbled wrapper, layered interior).Editorial food shot, shallow depth of field, bokeh of night market signage, Nikon Z9 look, 105mm macro, fast shutter freeze, hyper-real crumbs. --ar 3:4\"",
+      "techniques": [
+        "rim/backlighting",
+        "depth of field",
+        "artificial lighting",
+        "bokeh effect",
+        "macro/closeup"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 324,
+      "prompt": "{\n  \"master_prompt\": {\n    \"global_settings\": {\n      \"resolution\": \"8K ultra high definition\",\n      \"aspect_ratio\": \"3:4 vertical\",\n      \"image_quality\": \"extreme sharpness, high dynamic range, professional studio lighting\",\n      \"style\": \"AI-edited hyperreal food photography\",\n      \"focus\": \"crisp textures, frozen motion, liquid dynamics, surface details\",\n      \"background_quality\": \"clean, controlled, noise-free\"\n    },\n\n    \"module_1\": {\n      \"identity\": \"Image 1 – Ice Cream Cone with Purple Splash\",\n      \"subject\": {\n        \"main_object\": \"waffle cone ice cream\",\n        \"cone\": \"",
+      "techniques": [
+        "artificial lighting",
+        "overhead view",
+        "macro/closeup",
+        "texture emphasis",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 295,
+      "prompt": "A high-quality digital illustration of the word [COUNTRY NAME] spelled in bold, uppercase letters. The typography is sculptural and dimensional, with each letter subtly overlapping or stacked to enhance depth and visual flow. Set against a rich, dark-toned background that complements the palette of the ingredients.\n\nEach letter is intricately filled with iconic traditional foods from [COUNTRY], such as [SIGNATURE BREADS / FRUITS / SPICES / DISH ELEMENTS], carefully arranged to follow the contours of the typography. Small bowls of [TRADITIONAL SAUCES / CONDIMENTS] and scattered ingredients are ",
+      "techniques": [
+        "array/list format",
+        "artificial lighting",
+        "texture emphasis",
+        "soft lighting",
+        "intricate details"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 284,
+      "prompt": "{\n  \"global_settings\": {\n    \"resolution\": \"8K UHD\",\n    \"quality\": \"ultra-high\",\n    \"render_style\": \"AI-edited hyper-realistic food photography\",\n    \"sharpness\": \"extreme micro-detail\",\n    \"noise\": \"none\",\n    \"compression\": \"lossless\",\n    \"lighting_quality\": \"studio-controlled, cinematic\",\n    \"color_accuracy\": \"true-to-image\",\n    \"focus\": \"selective shallow depth of field\",\n    \"texture_emphasis\": \"maximum\"\n  },\n\n  \"camera_profile\": {\n    \"camera_type\": \"full-frame DSLR / mirrorless equivalent\",\n    \"lens\": \"macro prime\",\n    \"focal_length\": \"85mm–105mm\",\n    \"aperture\": \"f/2.8\",\n    \"",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "aperture settings",
+        "bokeh effect",
+        "specific viewpoint"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 255,
+      "prompt": "A hyper-detailed origami [FOOD ITEM] folded from realistic colored paper with visible creases and paper texture. Complex geometric folds capture the food’s shape, layers, and distinctive features. Placed on clean surface with soft shadows, minimalist food art photography style",
+      "techniques": [
+        "array/list format",
+        "artificial lighting",
+        "texture emphasis",
+        "minimalist style",
+        "intricate details"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 250,
+      "prompt": "Use uploaded photo as absolute main reference. Preserve Seblak kuah identity, ingredients, textures, and proportions; do not add anything not present.\nIntact ceramic bowl rises in a smooth swirling twirl motion; slight controlled tilt, stable anchor.\nDestroy ONLY the FOOD: crackers/kerupuk tear and split revealing bubbly porous texture; toppings (as in reference) separate naturally; spicy broth stretches",
+      "techniques": [
+        "texture emphasis",
+        "artificial lighting"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 244,
+      "prompt": "“Luxury golden-hour styled hero shot of [FOOD] bathed in warm directional sunlight. Long soft shadows, glowing highlights, natural lens flares. Minimal white set with subtle texture. Editorial lifestyle food photography aesthetic, rich color depth, atmospheric warmth, ultra-realistic detail, premium ad quality, 8K resolution.”",
+      "techniques": [
+        "natural lighting",
+        "artificial lighting",
+        "hyperrealistic",
+        "texture emphasis",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 243,
+      "prompt": "A colossal [OBJECT] reimagined as a complete natural biome. Tiny [WILDLIFE] has evolved to inhabit every niche the object provides. Predators hunt across its surfaces, herbivores graze in its cavities, birds nest in its heights, insects swarm its crevices. Food chains have formed around the object's geometry. Migration patterns follow its contours. Seasonal changes affect different zones. The object's materials have weathered into naturalistic terrain while remaining recognizable. Documentary aesthetic, golden wildlife lighting, the manufactured as wilderness. ",
+      "techniques": [
+        "array/list format",
+        "object structure"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 232,
+      "prompt": "{\n  \"content_goal\": \"viral food visual with high appetite appeal\",\n  \"image_type\": \"ultra-photorealistic food photography\",\n  \"visual_style\": {\n    \"aesthetic\": \"cinematic food editorial, premium street-food style\",\n    \"vibe\": \"steamy, savory, irresistible\",\n    \"realism\": \"high-end commercial food realism\"\n  },\n  \"composition\": {\n    \"framing\": \"close-up or medium close-up\",\n    \"camera_angle\": \"45-degree or slightly top-front angle\",\n    \"subject_position\": \"centered hero bowl or lifted noodles\",\n    \"perspective\": \"depth-rich with strong foreground emphasis\"\n  },\n  \"subject\": {\n    \"descri",
+      "techniques": [
+        "artificial lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "specific lens",
+        "specific angle"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 227,
+      "prompt": "{\n\"presentation\": \"Deconstructed exploded view floating in mid-air above a finished burger on a plate\",\n    \"burger_paddy\": \"Grilled quinoa and black bean patty with visible char marks, split in half with steam rising\",\n    \"floating_ingredients\": [\n      \"Grains of cooked quinoa\",\n      \"Whole black beans\",\n      \"Roasted sweet potato cubes\",\n      \"Fresh spinach and arugula leaves\",\n      \"Slices of ripe avocado\",\n      \"Drips of creamy tahini-lemon dressing\",\n      \"Diced red onion\"\n    ],\n    \"plated_item\": \"A complete burger on a seeded whole-grain bun with fresh greens and dressing, serv",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "photorealistic"
+      ]
+    }
+  ],
+  "portrait": [
+    {
+      "rank": 1,
+      "likes": 5647,
+      "prompt": "{\n  \"prompt_structure\": {\n    \"subject\": {\n      \"demographics\": \"Young  woman, mid-20s\",\n      \"facial_features\": {\n        \"skin\": \"Pale porcelain skin with visible natural texture, pores, and light freckles. Rosy flushed cheeks and nose indicating cold temperature. Hyper-realistic skin details.\",\n        \"eyes\": \"Striking hazel-green irises, sharp focus, direct eye contact. Long eyelashes catching tiny white snowflakes and frost particles.\",\n        \"hair\": \"Jet black, straight hair, slightly windblown with loose strands crossing the face. Sprinkled with fresh white snowflakes.\",\n        \"e",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "volumetric lighting",
+        "hard lighting",
+        "bokeh effect"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 3262,
+      "prompt": "{\n  \"meta\": {\n    \"project_name\": \"Winter Minimalist Portrait\",\n    \"model_type\": \"ultra-realistic-photography\",\n    \"aspect_ratio\": \"2:3\"\n  },\n  \"prompt_structure\": {\n    \"subject_details\": {\n      \"demographics\": \"young woman\",\n      \"hair\": \"platinum blonde, long, straight\",\n      \"skin\": \"fair porcelain skin, soft natural freckles, high detail skin texture\",\n      \"eyes\": \"expressive light-colored eyes, looking directly into the camera\",\n      \"makeup\": \"light pink blush, glossy lips\",\n      \"pose\": \"standing, slightly leaning forward\"\n    },\n    \"apparel\": {\n      \"style_genre\": \"minimali",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "aperture settings",
+        "bokeh effect",
+        "specific lens"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 3114,
+      "prompt": "{\n      \"id\": 1,\n      \"title\": \"2x2 Collage: Luxury Ski Trip\",\n      \"prompt_text\": \"2x2 photo collage, luxury ski influencer lifestyle. Strict face reference lock. Location: high-end ski chalet balcony (Aspen/Alps), blurred snowy mountains behind. Outfit: fitted white thermal bodysuit, white faux-fur headband, oversized Moon Boots. Natural skin texture, fresh cold girl makeup. Style: iPhone 16 Pro photo, harsh bright high-altitude winter sun, sharp shadows, strong contrast, slight lens flare, blown snow highlights. Panels: 1) Leaning on rustic wooden railing, smiling. 2) Close-up adjusting l",
+      "techniques": [
+        "hard lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "soft lighting",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 2935,
+      "prompt": "{\n  \"style\": \"ultra-realistic studio portrait\",\n  \"subject\": {\n    \"gender\": \"female\",\n    \"age\": \"young adult\",\n    \"pose\": \"leaning slightly forward toward the camera\",\n    \"expression\": \"playful, flirty\",\n    \"facial_details\": {\n      \"wink\": true,\n      \"tongue_out\": true,\n      \"freckles\": \"natural across fair skin\",\n      \"makeup\": {\n        \"blush\": \"soft pink\",\n        \"lips\": \"glossy\"\n      }\n    },\n    \"hair\": {\n      \"color\": \"blonde\",\n      \"length\": \"long\",\n      \"part\": \"side-parted\",\n      \"style\": \"falling naturally over shoulders\"\n    },\n    \"outfit\": {\n      \"dress\": \"off-sho",
+      "techniques": [
+        "artificial lighting",
+        "aperture settings",
+        "specific lens",
+        "soft lighting",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 2640,
+      "prompt": "{\n  \"image_prompt\": {\n    \"subject\": {\n      \"description\": \"Young woman , Fair skin tone, long straight light brown hair with some strands blowing in the wind.\",\n      \"pose\": \"Selfie angle, slightly tilted head, sticking tongue out playfully, looking off-camera to the side.\",\n      \"visible_body\": \"Shoulders, chest, and partial upper torso visible.\"\n    },\n    \"attire\": {\n      \"top\": \"Black bikini top with lace trim detailing on the edges and thin straps.\",\n      \"jewelry\": [\n        \"Gold layered necklace.\",\n        \"Gold cross pendant with small embedded crystals.\",\n        \"Gold 'CD' log",
+      "techniques": [
+        "rim/backlighting",
+        "depth of field",
+        "hyperrealistic",
+        "sharp focus",
+        "photorealistic"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 2163,
+      "prompt": "Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel. Background shows a crowded scene with motion blur (Paris Fashion Week atmosphere). Intense, spontaneous energy, imperfect and real. She is wearing a school uniform. Ultra-realistic, cinematic realism, high detail skin texture, slight lens distortion.\n\nCamera style: “35mm paparazzi lens, f/2.8, flash blown highlights”\nLook: “2000s tabloi",
+      "techniques": [
+        "aperture settings",
+        "hard lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "specific lens"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 1839,
+      "prompt": "{\n  \"structured_prompt\": {\n    \"shot_style\": \"Ultra-photorealistic close-up portrait, Hyper-realistic editorial photography, raw style, ultra-detailed, 8k resolution, Vogue/Harper’s Bazaar professional aesthetic, perfectly balanced composition.\",\n    \"subject\": \"A world-class supermodel-level young woman.\",\n    \"facial_structure\": \"Perfectly symmetrical facial structure, high cheekbones, sharp jawline, elegant straight nose, full natural lips.\",\n    \"eyes\": \"Mesmerizing green-hazel eyes with deep clarity, realistic reflections, and captivating gaze.\",\n    \"hair\": \"Dark blonde wet hair naturall",
+      "techniques": [
+        "artificial lighting",
+        "hard lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "photorealistic"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 1580,
+      "prompt": "{\n  \"style\": \"ultra-realistic studio portrait\",\n  \"subject\": {\n    \"gender\": \"female\",\n    \"age\": \"young adult\",\n    \"pose\": \"leaning slightly forward toward the camera\",\n    \"expression\": \"playful, flirty\",\n    \"facial_details\": {\n      \"wink\": true,\n      \"tongue_out\": true,\n      \"freckles\": \"natural across fair skin\",\n      \"makeup\": {\n        \"blush\": \"soft pink\",\n        \"lips\": \"glossy\"\n      }\n    },\n    \"hair\": {\n      \"color\": \"brunette\",\n      \"length\": \"long\",\n      \"part\": \"side-parted\",\n      \"style\": \"falling naturally over shoulders\"\n    },\n    \"outfit\": {\n      \"dress\": \"off-s",
+      "techniques": [
+        "artificial lighting",
+        "aperture settings",
+        "specific lens",
+        "soft lighting",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 1550,
+      "prompt": "{\n  \"shot\": {\n    \"composition\": \"full body dual shot, 50mm lens, static angle, high fashion composition\",\n    \"camera_motion\": \"static studio setup\",\n    \"frame_rate\": \"still photography\",\n    \"film_grain\": \"light vintage fashion grain, mimicking early 2000s campaigns\"\n  },\n  \"subject\": {\n    \"description\": \"Two female fashion models in bold editorial poses. One kneeling with long platinum pink hair, the other behind her with short black hair. Both wear mini Dior-style outfits and newspaper-printed thigh-high boots.\",\n    \"wardrobe\": \"designer print bikinis, newspaper-print thigh-high boots, ",
+      "techniques": [
+        "specific lens",
+        "soft lighting",
+        "vibrant colors",
+        "studio lighting",
+        "vintage/retro"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 1529,
+      "prompt": "{\n  \"image_prompt\": {\n    \"meta\": {\n      \"aspect_ratio\": \"9:16 vertical\",\n      \"camera\": \"iPhone 15 Pro Max (rear camera)\",\n      \"lens_feel\": \"24mm wide, slight wide-angle realism without face distortion\",\n      \"quality\": \"ultra-photorealistic, looks like a real iPhone camera roll photo\",\n      \"texture_rules\": [\n        \"natural skin texture (no plastic smoothing)\",\n        \"subtle smartphone noise/grain in shadows\",\n        \"tiny handheld imperfections (micro-tilt, not perfectly centered)\"\n      ]\n    },\n    \"scene\": {\n      \"location\": \"modern hotel-suite / upscale apartment living room",
+      "techniques": [
+        "modern",
+        "artificial lighting",
+        "specific lens",
+        "photorealistic",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 1497,
+      "prompt": "{\n  \"overall_theme\": {\n    \"description\": \"A curated series of four ultra-photorealistic vignettes showcasing a luxurious, wellness-focused lifestyle.\",\n    \"mood\": \"Calm, serene, balanced, sophisticated, peaceful, rejuvenating.\",\n    \"style\": \"Minimalist, high-end, contemporary, clean aesthetic, aspirational.\"\n  },\n  \"subject\": {\n    \"description\": \"Young woman.\",\n    \"appearance\": {\n      \"hair\": \"Long, dark brown, wavy, natural texture.\",\n      \"skin\": \"Clear, glowing, natural.\",\n      \"makeup\": \"No-makeup makeup look, dewy finish.\",\n      \"physique\": \"Fit, toned.\"\n    },\n    \"expression\": ",
+      "techniques": [
+        "rim/backlighting",
+        "artificial lighting",
+        "bokeh effect",
+        "overhead view",
+        "soft lighting"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 1495,
+      "prompt": "{\n\n    \"title\": \"LA Rooftop Poolside Selfie\",\n    \"style_attributes\": [\n      \"Ultra-realistic cinematic lifestyle photography\",\n      \"8K resolution\",\n      \"Hyper-detailed\",\n      \"Photorealistic\",\n      \"iPhone-style casual shot\",\n      \"Cinematic photographic quality\"\n    ],\n    \"subject\": {\n      \"demographics\": \"Female, 20 years old, Slavic appearance\",\n      \"facial_features\": {\n        \"structure\": \"Naturally beautiful, well-balanced face, realistic proportions\",\n        \"eyes\": \"Large expressive green-hazel, calm confident gaze\",\n        \"lips\": \"Naturally full, soft, unexaggerated\",\n",
+      "techniques": [
+        "depth of field",
+        "natural lighting",
+        "artificial lighting",
+        "hard lighting",
+        "specific lens"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 1489,
+      "prompt": "First-person perspective inside a brightly lit supermarket aisle. Realistic human hands are holding a bottle of Fanta soda close to the camera. The vivid orange drink in its iconic branded bottle is surrounded by a multi-layered holographic augmented reality interface displaying nutritional data, including calorie count, sugar content, caffeine level, freshness indicator, expiration date, and recommended refreshing recipes and cocktails based on Fanta.\nThe UI elements smoothly shift and reorganize based on the viewer’s gaze direction, as if dynamically responding to user focus. In the left per",
+      "techniques": [
+        "depth of field",
+        "array/list format",
+        "vibrant colors"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 1133,
+      "prompt": "Ultra-realistic candid smartphone photograph, 9:16 vertical.\nUse the attached image only as a strong visual inspiration for general facial proportions and vibe,\nwhile ensuring the generated subject remains fully original, non-identifiable, and not a face copy.\nScene\nNighttime on a quiet Tokyo city sidewalk beside a building with white ceramic tile walls.\nThe subject is walking past the camera, partially side-on, captured mid-step in a rushed, accidental moment.\nPoses & Gestures (combined naturally)\nThe subject reacts instinctively to being photographed:\nturning her head back mid-walk as if sur",
+      "techniques": [
+        "artificial lighting",
+        "hard lighting",
+        "bokeh effect",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 1087,
+      "prompt": "{\n  \"meta\": {\n    \"aspect_ratio\": \"9:16\",\n    \"quality\": \"ultra_photorealistic\",\n    \"resolution\": \"8k\",\n    \"camera\": \"iPhone front camera\",\n    \"lens\": \"24mm\",\n    \"style\": \"raw iPhone mirror realism, zero smoothing, heavy reflections, subtle grain, imperfect exposure\"\n  },\n\n  \"scene\": {\n    \"location\": \"luxury apartment elevator\",\n    \"environment\": [\n      \"mirror walls on three sides\",\n      \"brushed stainless steel panels\",\n      \"glass-like reflection layering (multiple reflections of body)\",\n      \"LED ceiling strip lights\",\n      \"digital floor number glowing red\",\n      \"slight finge",
+      "techniques": [
+        "artificial lighting",
+        "bokeh effect",
+        "overhead view",
+        "specific lens",
+        "minimalist style"
+      ]
+    }
+  ],
+  "product": [
+    {
+      "rank": 1,
+      "likes": 5072,
+      "prompt": "Create ONE final image. \n\nA clean 3×3 [ratio] storyboard grid with nine equal [ratio] sized panels on [4:5] ratio. \n\nUse the reference image as the base product reference. Keep the same product, packaging design, branding, materials, colors, proportions and overall identity across all nine panels exactly as the reference. The product must remain clearly recognizable in every frame. The label, logo and proportions must stay exactly the same.\n\nThis storyboard is a high-end designer mockup presentation for a branding portfolio. The focus is on form, composition, materiality and visual rhythm rath",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "macro/closeup",
+        "centered composition",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 1299,
+      "prompt": "Create an exploded products with inner mechanics [product], high-end product advertising, white seamless background, exploded view with inner mechanics revealed, outer shell hovering above core, micro screws and components suspended, perfect alignment guides implied, crisp soft shadow, ultra realistic, macro product photography, 100mm lens look, f/8, 8k, 1:1",
+      "techniques": [
+        "artificial lighting",
+        "aperture settings",
+        "hyperrealistic",
+        "macro/closeup",
+        "specific lens"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 731,
+      "prompt": "[subject], premium food advertising, white seamless background, high key studio lighting, floating stacked composition, levitating pieces, [ingredient_bits] scattered, clean minimal layout, crisp soft shadow on surface, ultra realistic, macro product photography, 100mm lens look, f/8 sharp focus, subtle texture detail, editorial commercial, 8k",
+      "techniques": [
+        "aperture settings",
+        "macro/closeup",
+        "specific lens",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 683,
+      "prompt": "[person], [pose], oversized product in the attached image as the main hero prop, playful fun energy, fashion editorial styling, clean minimal background, high key studio lighting, crisp soft shadow, ultra realistic commercial photography, wide angle low perspective, sharp focus, 8k, 1:1",
+      "techniques": [
+        "hyperrealistic",
+        "sharp focus",
+        "minimalist style",
+        "studio lighting",
+        "wide angle"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 518,
+      "prompt": "Create a realistic yet surreal creative advertisement for [PRODUCT NAME] in the [PRODUCT CATEGORY] space. The product must be the hero, centered in the frame, and visually “formed” in a smart way that automatically reflects the brand’s spirit and identity.\n\nUse a clean, cohesive background that matches the brand’s color palette, with soft cinematic lighting, ultra-realistic premium materials, precise shadows, and a high-end editorial composition.\n\nAdd one innovative surreal touch directly tied to the product’s nature—creative but not exaggerated.\n\nIntegrate the real official product logo elega",
+      "techniques": [
+        "hyperrealistic",
+        "surreal",
+        "centered composition",
+        "framing technique",
+        "color grading"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 506,
+      "prompt": "{\n  \"juice_boxes\": [\n    {\n      \"id\": 1,\n      \"product\": {\n        \"brand\": \"Tip-Top\",\n        \"flavor\": \"Strawberry\",\n        \"image\": {\n          \"description\": \"strawberry juice with ripe strawberries\",\n          \"background\": {\n            \"color\": \"fresh pastel pink\",\n            \"elements\": [\n              \"strawberry halves\",\n              \"juice splashes\",\n              \"dynamic swirling around the pack\"\n            ]\n          }\n        }\n      },\n      \"design\": {\n        \"style\": {\n          \"detail\": \"high-quality detail\",\n          \"texture\": \"commercial-grade photorealism\"\n    ",
+      "techniques": [
+        "hyperrealistic",
+        "pastel colors",
+        "texture emphasis",
+        "photorealistic",
+        "JSON structure"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 490,
+      "prompt": "View from under a plane of completely transparent plexiglass. We are looking straight up. Many people are walking on the plexiglass. In the background is a pure blue sky. No buildings visible. No edges or separations in the plexiglass. It’s as if the plexiglass isn’t even there. We are very close to the people. The people are in the process of walking. The people are walking generally from left to right. The soles of their shoes are very close to the foreground.",
+      "techniques": [
+        "negative constraints"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 486,
+      "prompt": "A high-end editorial studio photograph of a (PRODUCT FORM, e.g. bottle, jar, tube…), made of (MATERIAL, e.g. glass, ceramic, matte plastic…) with a (COLOR) (DETAIL, e.g. cap, texture, label…). The product is placed on a natural, textured (BASE SURFACE, e.g. stone, wood, marble…) slab, itself resting on a round mirror laid on a (SURFACE TONE, e.g. beige, sand, light gray…) surface. Around the mirror and on the slab are scattered droplets of (LIQUID, e.g. serum, oil, gel…) with realistic reflections. A few sprigs of (DECORATIVE NATURAL ELEMENTS, e.g. lavender, eucalyptus, rose petals…) lie gentl",
+      "techniques": [
+        "depth of field",
+        "natural lighting",
+        "artificial lighting",
+        "golden hour",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 445,
+      "prompt": "Premium minimalist skincare product photography. A translucent pink liquid cleanser bottle with a white pump dispenser placed vertically at the center of the frame. The bottle rests inside an organic pool of soft pink foamy bubbles, with airy soap lather spreading outward in smooth, rounded shapes. Small transparent bubbles float around the foam surface. Clean matte pastel pink background with subtle gradient. Soft diffused top lighting with gentle rim light creates a luminous glow through the liquid, highlighting the pump tube inside the bottle. Sharp focus, high clarity, realistic liquid ref",
+      "techniques": [
+        "rim/backlighting",
+        "hard lighting",
+        "hyperrealistic",
+        "soft lighting",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 396,
+      "prompt": "A beverage can branded [BRAND NAME], entirely made from vibrant, fluffy plush fabric, positioned centrally against a soft, plush background in the signature colors of [BRAND NAME].\n\nBold Pop Art and Memphis design style, playful yet premium aesthetic.\n\nBright, clean studio lighting that strongly emphasizes the plush texture, visible fibers, softness, and tactile depth.\n\nSharp focus, high color saturation, smooth shadows, modern commercial product shot, minimal composition, ultra-high resolution.",
+      "techniques": [
+        "modern",
+        "texture emphasis",
+        "vibrant colors",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 383,
+      "prompt": "Create top-down flat lay product photo. Use the uploaded product as the main object, centered. Analyze the product type from the photo and automatically choose matching props/ingredients for an aesthetic flat lay around it (minimal, premium, on-brand). Preserve exact geometry, size, colors, label design, and all text on the product (no changes). Warm beige seamless background, soft directional sunlight, crisp realistic shadow. \nUltra-realistic macro product photography, 100mm lens look, f/8, sharp focus, clean composition, no extra text, 8k, format 2:3.",
+      "techniques": [
+        "natural lighting",
+        "aperture settings",
+        "overhead view",
+        "macro/closeup",
+        "specific lens"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 345,
+      "prompt": "A tight close-up commercial product photo of a premium [PRODUCT TYPE] labeled “[BRAND NAME]”. The product is [SHAPE / FORM FACTOR], made of [MATERIAL], containing [LIQUID / CONTENT COLOR + TEXTURE DETAILS] with visible [TEXTURE EFFECTS: bubbles / swirls / pulp / condensation / thickness]. It has a [CAP / LID TYPE + COLOR + FINISH].\n\nThe main label is [PRIMARY LABEL COLOR] with a smooth matte finish. At the top of the label, the brand name “[BRAND NAME]” is printed in clean bold [TEXT COLOR] uppercase sans-serif typography. Below the brand name is a minimalist illustration of [ICON DESCRIPTION]",
+      "techniques": [
+        "artificial lighting",
+        "bokeh effect",
+        "macro/closeup",
+        "soft lighting",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 343,
+      "prompt": "A vibrant, high-end advertising visual of a [PRODUCT NAME] can/bottle floating dynamically in the center. The background is a soft gradient inspired by the drink’s color, blending into fresh sky-blue tones for a refreshing summer feel.  A powerful splash of [LIQUID TYPE] explodes around the product, forming the word ”[WORD]” in smooth, fluid, organic liquid typography.  Crystal-clear ice cubes burst around the composition, with fresh [FRUITS RELATED TO THE DRINK] (whole and sliced) flying in the air. Juicy splashes, droplets, light mist, and condensation create an intense refreshing atmosphere",
+      "techniques": [
+        "natural lighting",
+        "artificial lighting",
+        "sharp focus",
+        "centered composition",
+        "vibrant colors"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 332,
+      "prompt": "A hyper-realistic travel advertisement in square format (1080x1080), featuring a hand holding a sleek, ultra-thin smartphone or tablet in portrait orientation, tilted slightly sideways to create a striking 3D portal effect. The screen displays a high-resolution image of an iconic landmark from [COUNTRY], which continues into the real background, blending seamlessly. The landmark appears to emerge from the screen. Birds fly nearby and a commercial airplane passes through a bright blue sky with soft white clouds. Bold, clean sans-serif text reading [CITY] is placed prominently above. The lightin",
+      "techniques": [
+        "minimalist style",
+        "array/list format"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 332,
+      "prompt": "Scandinavian-style minimal illustration of [SUBJECT], muted pastel palette, flat design, soft gradients, cozy yet modern aesthetic, clean shapes, lifestyle illustration feel.",
+      "techniques": [
+        "muted colors",
+        "modern",
+        "array/list format",
+        "pastel colors",
+        "minimalist style"
+      ]
+    }
+  ],
+  "3d": [
+    {
+      "rank": 1,
+      "likes": 2506,
+      "prompt": "Create a collection of icons representing [a theme], they belong together as a single theme. Put them in a 3x3 grid. The background is white. Make the icons in a colorful and tactile 3D style. No text.\n\n- dogs with different emotions\n- bananas\n- January\n- the same cat in different emotions",
+      "techniques": [
+        "array/list format",
+        "negative constraints"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 1124,
+      "prompt": "[Create a hand drawn isometric schematic diagram of this street]",
+      "techniques": [
+        "array/list format"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 920,
+      "prompt": "Create a clear, 45° top-down isometric miniature 3D educational diorama explaining [PROCESS / CONCEPT].\n\nUse soft refined textures, realistic PBR materials, and gentle lifelike lighting.\n\nBuild a stepped or layered diorama base showing each stage of the process with subtle arrows or paths.\n\nInclude tiny stylized figures interacting with each stage (no facial details).\n\nUse a clean solid [BACKGROUND COLOR] background.\nAt the top-center, display [PROCESS NAME] in large bold text, directly beneath it show a short explanation subtitle, and place a minimal symbolic icon below.\n\nAll text must automa",
+      "techniques": [
+        "array/list format",
+        "overhead view",
+        "texture emphasis",
+        "centered composition",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 425,
+      "prompt": "Create a high-quality stylized 3D render of a clear, translucent glass skeleton wearing black-rimmed glasses sitting at a wooden desk. The skeleton MUST be looking down at an open textbook and holding a yellow highlighter, actively highlighting a line of text. The scene MUST feature a warm gold desk lamp on the right side casting a cozy, yellow light that creates glossy reflections on the skeleton's surface. The desk is cluttered with a white coffee mug, a stack of hardcover books on the right, and scattered pens and pastel pink and yellow highlighters. The background MUST be a solid, soft pin",
+      "techniques": [
+        "pastel colors"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 420,
+      "prompt": "A miniature isometric architectural diorama of [LANDMARK NAME], accurately reflecting its real-world structure and proportions, placed on a small floating base with subtle surrounding buildings and landscape elements inspired by [CITY / COUNTRY]. Realistic materials and natural textures, physically accurate stone, concrete, metal, and glass surfaces. True-to-life color palette based on the actual landmark, muted and realistic tones. Off-white studio background with soft, natural lighting, gentle shadows, and clean composition. High-detail, realistic yet refined 3D render, premium architectural",
+      "techniques": [
+        "muted colors",
+        "array/list format",
+        "natural lighting",
+        "texture emphasis",
+        "color grading"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 399,
+      "prompt": "Create a hand drawn isometric schematic diagram of [LANDMARK]. 1080x1080 dimension.",
+      "techniques": [
+        "array/list format"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 261,
+      "prompt": "{\n\"description\": \"Create a highly detailed, photorealistic miniature diorama style isometric map of [CITY/LOCATION] placed on a vintage textured paper map.\",\n  \"perspective\": {\n    \"type\": \"isometric\",\n    \"angle\": \"45 degree top down\",\n    \"look\": \"macro photography with tilt-shift miniature effect\"\n  },\n  \"geography\": {\n    \"shape\": \"follows real geographic shape of [CITY/LOCATION]\",\n    \"landmarks\": {\n      \"oversized\": true,\n      \"dominant\": true,\n      \"primary_focus\": \"monuments\",\n      \"secondary_elements\": \"smaller and simplified\"\n    },\n    \"architecture\": \"ultra detailed miniature\",",
+      "techniques": [
+        "artificial lighting",
+        "overhead view",
+        "macro/closeup",
+        "photorealistic",
+        "specific angle"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 256,
+      "prompt": "Present a clear, 45° top-down isometric miniature 3D cartoon scene of the iconic scene [SCENE NAME] from [MOVIE/SHOW], with soft refined textures, realistic PBR materials, and gentle lifelike lighting.\nCreate a small raised diorama-style base that includes the most recognizable elements of this scene, along with tiny stylized characters if needed (no facial details).\nUse a clean solid [BACKGROUND COLOR] background.\n\nAt the top-center, display [MOVIE/SHOW] in large bold text, directly beneath it show [SCENE NAME] in medium text, and place the official logo associated with [MOVIE/SHOW] below the",
+      "techniques": [
+        "array/list format",
+        "overhead view",
+        "texture emphasis",
+        "centered composition",
+        "negative constraints"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 252,
+      "prompt": "Present a clear, 45° top-down isometric miniature 3D cartoon scene of [STADIUM], with soft refined textures, realistic PBR materials, and gentle lifelike lighting. Use a clean solid [COLOR] background. At the top-center, display the name of this stadium in large bold text, then directly beneath it show its real seating capacity in medium text, and place the official logo associated with this stadium below the capacity. All text must match the background contrast automatically (white or black). Centered layout",
+      "techniques": [
+        "centered composition",
+        "texture emphasis",
+        "overhead view",
+        "array/list format"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 237,
+      "prompt": "Create a stylized miniature 3D diorama viewed from a 45-degree angled perspective, emphasizing careful scale, clean geometry, and fine craftsmanship.\n\nA [OBJECT] serves as the central base of the composition. From within or above this object, a miniature interpretation of [LOCATION NAME] emerges naturally, forming a compact, self-contained world.\n\nThe scene highlights recognizable landmarks, terrain features, or symbolic structures associated with [LOCATION NAME], arranged harmoniously and rendered with precise detail.\n\nMiniature roads, paths, or environmental elements flow through the scene, ",
+      "techniques": [
+        "artificial lighting",
+        "bokeh effect",
+        "surreal",
+        "high detail",
+        "specific angle"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 235,
+      "prompt": "8K Ultra-Realistic Promotional\nPresent a clear, 45° top-down isometric miniature 3D scene of the [SUBWAY SYSTEM / LINE NAME]. The scene includes stylized diorama elements such as platforms, miniature trains, stairwells, signage, tiled walls, vending machines, and people waiting.\nUse soft, refined textures, realistic PBR materials, and lifelike lighting with subtle shadows to enhance dimensional clarity.\nAt the top center, place the title “[LINE NAME]” in bold sans-serif text. Below it, add a train icon followed by “Service Status” (small text) and “[STATUS MESSAGE]”  red medium text for delays",
+      "techniques": [
+        "artificial lighting",
+        "hyperrealistic",
+        "overhead view",
+        "texture emphasis",
+        "centered composition"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 218,
+      "prompt": "Create a collection of icons representing [ROUTINE / PROCESS / HABITS], with each icon depicting one specific routine step and clearly labeled by name.\n\nThey belong together as a single cohesive theme. The background is pure white.\n\nPlace the title “[ROUTINE NAME]” at the top center of the image, aligned symmetrically above the grid, using a clean, minimal typography style that complements the icon design without overpowering it.\nIcons are rendered in a friendly, modern 3D style, featuring smooth gradients and soft shadows.\n\nMaintain consistent proportions, color harmony, materials, and typogr",
+      "techniques": [
+        "modern",
+        "artificial lighting",
+        "symmetrical",
+        "centered composition",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 217,
+      "prompt": "A smooth, ultra-realistic 3D render of the word [YOUR WORD] shaped like a delicious candy — style adapts based on word — surrounded by a minimal candy world — high-Kelvin lighting — cinematic ray tracing — soft shadows — glossy details — hyper-real textures — square format",
+      "techniques": [
+        "minimalist style",
+        "hyperrealistic",
+        "array/list format",
+        "texture emphasis"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 209,
+      "prompt": "8k Ultra-Realistic Promotional\nCreate an exquisite miniature 3D cartoon-style scene of the user-specified company, viewed from a 45° top down perspective, with the company’s most iconic building or campus at the center, surrounded by proportionally scaled product icons, cartoon figures, vehicles, and playful elements representing everyday activities. Render in Cinema 4D with refined, smoothly rounded modeling, rich PBR textures, gentle lifelike lighting, and soft shadows for a warm, polished feel, using a clean solid-color background.\nIntegrate accurate real-time stock market data for the spec",
+      "techniques": [
+        "artificial lighting",
+        "hyperrealistic",
+        "overhead view",
+        "centered composition",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 182,
+      "prompt": "Create a 45° top-down isometric miniature 3D diorama of [SCENE], including all key objects and tiny stylized people interacting naturally with the environment.\n\nComposition:\n•Include all relevant props, furniture, or items that make the scene recognizable.\n•Tiny characters can sit, stand, walk, or interact with objects as appropriate.\n•Soft realistic lighting, gentle shadows, subtle textures, minimal background.\n•Maintain consistent scale, camera angle, perspective, and style.\n\nVisual style: clean, editorial Apple-UI aesthetic, bright yet soft colors, ultra-crisp 3D textures.\nBackground: solid",
+      "techniques": [
+        "array/list format",
+        "overhead view",
+        "sharp focus",
+        "texture emphasis",
+        "minimalist style"
+      ]
+    }
+  ],
+  "cinematic": [
+    {
+      "rank": 1,
+      "likes": 1203,
+      "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial dessert photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, razor-sharp focus, luxury dessert clarity\",\n    \"lighting\": \"Controlled studio lighting emphasizing texture, layers, and syrup highlights\",\n    \"motion\": \"Frozen mid-air elements with subtle gravity realism\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed photography look, shallow to medium depth of field\",\n    \"post_processing\": \"Rich contrast, warm to",
+      "techniques": [
+        "depth of field",
+        "modern",
+        "artificial lighting",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 908,
+      "prompt": "A high-end editorial photo of a [PRODUCT] placed flat on a [TEXTURED SURFACE], captured from a direct top-down view. The surface is gently disturbed to suggest recent motion or interaction. The front of the product is fully visible and properly oriented upright. The area around the product is intentionally left open to optionally place [COMPLEMENTARY OBJECTS] that visually enhance the scene. Natural sunlight from the upper left casts warm, realistic shadows. 3D realism, luxury product photography, shallow depth of field, 1:1 format.",
+      "techniques": [
+        "depth of field",
+        "array/list format",
+        "natural lighting",
+        "overhead view",
+        "texture emphasis"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 773,
+      "prompt": "{\n  \"image_description\": {\n    \"title\": \"Surveillance Feed: Defiant Subject in Retail Shop\",\n    \"aspect_ratio\": \"4:5\",\n    \"mood\": \"Raw, gritty, confrontational, authentic\"\n  },\n  \"visual_elements\": {\n    \"subject\": {\n      \"framing\": \"Centered from mid-torso upward\",\n      \"pose\": \"Head tilted back looking up at camera, relaxed yet defiant posture\",\n      \"action\": \"Hand raised with middle finger extended (silhouette, ghosted by motion)\",\n      \"facial_features\": \"Largely obscured by blur, mouth open with tongue faintly visible\",\n      \"apparel\": \"Dark oversized sunglasses reflecting ambient",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "hard lighting",
+        "bokeh effect",
+        "overhead view"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 645,
+      "prompt": "A high-quality 3D metallic typography design of the word [COUNTRY NAME], set against a dark, textured background that complements the identity of [COUNTRY], creating a cinematic, premium visual tone.\n\nEach individual letter is uniquely designed to represent a distinct cultural element, tradition, landmark, or national symbol from [COUNTRY], intelligently adapted to the letter’s shape while maintaining perfect readability.\n\nCultural elements may include (but are not limited to):\n– iconic architecture or monuments\n– traditional patterns, textiles, or crafts\n– national sports or tools\n– folklore,",
+      "techniques": [
+        "array/list format",
+        "sharp focus",
+        "texture emphasis",
+        "negative constraints",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 608,
+      "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial food photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, sharp focus, studio-grade clarity\",\n    \"lighting\": \"Soft but controlled studio lighting with visible highlights and splash definition\",\n    \"motion\": \"Frozen mid-air action, ingredients suspended\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed photography look, shallow to medium depth of field\",\n    \"post_processing\": \"Balanced contrast, natural saturati",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "centered composition",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 558,
+      "prompt": "Epic 3D scene: a massive architectural blueprint of [BUILDING/STRUCTURE] pinned to a drafting table, its ink lines rising off the paper into fully realized construction. Blue lines become steel beams mid-weld, floor plans inflate into furnished rooms, elevation drawings push outward into facades with working windows. Construction phases coexist simultaneously: foundation being poured in one corner while the penthouse is already inhabited in another. Tiny workers, cranes, and scaffolding swarm the rising structure. The flat drawing and the living building merge at impossible angles. Technical a",
+      "techniques": [
+        "array/list format",
+        "photorealistic"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 480,
+      "prompt": "{\n  \"global_settings\": {\n    \"resolution\": \"8K ultra high definition\",\n    \"aspect_ratio\": \"2:3 vertical\",\n    \"image_type\": \"AI-edited cinematic food photography\",\n    \"detail_level\": \"extreme micro-detail, sharp focus, clean edges\",\n    \"style_constraint\": \"enhanced realism, minimal alteration from original composition\"\n  },\n\n  \"module_1_image_1_style\": {\n    \"subject\": \"single hard-shell taco\",\n    \"composition\": {\n      \"orientation\": \"diagonal, floating in mid-air\",\n      \"foreground_focus\": \"taco shell and filling\",\n      \"motion\": \"ingredients suspended, sauce splash frozen mid-air\"\n   ",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "bokeh effect",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 475,
+      "prompt": "A high-contrast ink noir portrait of [SUBJECT], illustrated entirely with expressive black ink strokes and controlled splatter. Heavy shadows dominate the composition while selective highlights emerge through negative space. Subtle paper grain is visible. Atmosphere is moody, cinematic, and intense, like a graphic novel frozen at its most dramatic panel.",
+      "techniques": [
+        "array/list format",
+        "negative space",
+        "artificial lighting",
+        "grain/film grain"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 469,
+      "prompt": "{\n  \"image_description\": \"A high-quality side-by-side comparison of a handsome man posing on a coastal cliffside.\",\n  \"subject\": {\n    \"gender\": \"male\",\n    \"appearance\": \"mid-30s, well-groomed beard, thick dark hair styled in a modern voluminous pompadour\",\n    \"poses\": [\n      \"standing with hands in pockets looking away from the camera\",\n      \"standing with one hand adjusting the collar of his jacket\"\n    ]\n  },\n  \"outfit\": {\n    \"outerwear\": \"burnt orange or rust-colored corduroy trucker jacket with metal buttons\",\n    \"base_layer\": \"crisp white crew-neck t-shirt\",\n    \"bottoms\": \"dark na",
+      "techniques": [
+        "depth of field",
+        "natural lighting",
+        "artificial lighting",
+        "bokeh effect",
+        "soft lighting"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 459,
+      "prompt": "Transform the original photo into a dramatic, photorealistic, ultra-detailed set of 4 different styles characters are included , each a mid close up wide-angle shot with an extreme, dynamic camera angle where one or more body parts are positioned right next to the lens and appear huge, the rest of the body recedes strongly in perspective, and the same person strikes a stylish, complex, powerful pose in a consistent, expanded version of the original environment, with cinematic lighting, high contrast, crisp textures, and precise color grading.",
+      "techniques": [
+        "artificial lighting",
+        "macro/closeup",
+        "photorealistic",
+        "color grading",
+        "intricate details"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 429,
+      "prompt": "{\nA hyper-realistic, ultra-detailed 8K cinematic wide-shot of a football scene, captured from a dramatic low-angle perspective with a wide-angle lens and shallow depth of field, emphasizing speed, power, and realism.\n\nThe scene features only two players on a professional football pitch.\nThe primary player, positioned slightly ahead and in control of the ball, is dribbling with explosive movement and confident body language. His face is generated using the uploaded face as reference (100% likeness).\n\nHe wears an ultra-realistic AI Trends football kit, designed like a top-tier international club",
+      "techniques": [
+        "rim/backlighting",
+        "depth of field",
+        "artificial lighting",
+        "volumetric lighting",
+        "bokeh effect"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 427,
+      "prompt": "Epic 3D scene: a weathered passport lies open, its visa stamps erupting into the destinations they represent. Each ink impression becomes a portal—[CITY 1] rises in miniature from one stamp with [DETAIL 1], [CITY 2] pushes through another with [DETAIL 2], [CITY 3] manifests with [DETAIL 3]. [LANDMARK 1], [LANDMARK 2], and [LANDMARK 3] stand at different scales across the pages. Flight paths arc overhead as glowing golden trajectories weaving between all the worlds.\nCoffee stains become lakes. Worn edges erode into coastlines. [ATMOSPHERIC ELEMENT 1] drifts from one destination while [ATMOSPHER",
+      "techniques": [
+        "depth of field",
+        "array/list format",
+        "overhead view"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 414,
+      "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial food photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, razor-sharp focus, premium street food clarity\",\n    \"lighting\": \"Controlled studio lighting emphasizing meat texture, char marks, and sauce glistening\",\n    \"motion\": \"Frozen mid-air elements with subtle gravity realism\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed photography look, shallow to medium depth of field\",\n    \"post_processing\": \"Rich contra",
+      "techniques": [
+        "depth of field",
+        "artificial lighting",
+        "overhead view",
+        "macro/closeup",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 407,
+      "prompt": "Minimalist food photograph, [1080x1080] – a single [FOOD] rests on a light, matte surface and is captured mid-transformation into a 3D pixelized form: one half remains intact while the other organically fragments into large, floating cubes that drift outward, each cube revealing the object’s texture, ingredients, and colors. Studio lighting with soft, realistic shadows, shallow depth of field, tasteful perspective and composition, hyperrealistic detail, stylish geometric abstraction, subtle motion blur on the cubes, high resolution, cinematic close-up.",
+      "techniques": [
+        "depth of field",
+        "bokeh effect",
+        "macro/closeup",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 381,
+      "prompt": "Create a hyperrealistic, surreal spherical panorama of [CITY NAME], with its most iconic landmarks and architecture seamlessly curving around the top of a planet-like surface, forming a cohesive miniature world.\nIntegrate sleek, modern 3D typography spelling “[CITY NAME]” naturally into the urban landscape, harmonized with the environment rather than floating unnaturally.\n\nThe scene is viewed from a top-down, orbiting perspective, emphasizing the tiny-planet effect and spherical distortion while maintaining architectural clarity.\n\nSoft, natural daylight filters through a partly cloudy sky, cas",
+      "techniques": [
+        "modern",
+        "hyperrealistic",
+        "overhead view",
+        "surreal",
+        "photorealistic"
+      ]
+    }
+  ],
+  "design": [
+    {
+      "rank": 1,
+      "likes": 4023,
+      "prompt": "[PERSON NAME]. \nAct as a high-end sports graphic designer creating a conceptual tribute poster. The style is a complex \"dual exposure photo-grid composite\" with mixed-media textures.\nCENTRAL STRUCTURE (THE VESSEL):\nThe central focus is a large-scale, high-contrast black and white portrait silhouette of [PERSON NAME]. This main portrait acts as the container.\nTHE GRID FILL & TEXTURES (MIXED MEDIA):\nThe interior of the silhouette is populated by a dense \"photo mosaic grid\" of action shots from the person's career.\nCRITICAL TEXTURE INSTRUCTION: Do not just paste flat photos. Apply artistic textur",
+      "techniques": [
+        "negative space",
+        "texture emphasis",
+        "monochrome",
+        "centered composition",
+        "intricate details"
+      ]
+    },
+    {
+      "rank": 2,
+      "likes": 1934,
+      "prompt": "Create an infographic image of [OBJECT], combining a realistic photograph or photoreal render of the object with technical annotation overlays placed directly on top.\n\nUse black ink–style line drawings and text (technical pen / architectural sketch look) on a pure white studio background, including:\n•Key component labels\n•Internal cutaway or exploded-view outlines\n•Measurements, dimensions, and scale markers\n•Material callouts and quantities\n•Arrows indicating function, force, or flow (air, sound, power, pressure)\n•Simple schematic or sectional diagrams where relevant\n\nPlace the title [OBJECT]",
+      "techniques": [
+        "negative space",
+        "sharp focus",
+        "color grading",
+        "photorealistic",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 3,
+      "likes": 1389,
+      "prompt": "“Ultra-clean modern recipe infographic. Showcase briyani in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view. Arrange ingredients, steps, and tips around the dish in a dynamic editorial layout, not restricted to top-down. Ingredients Section: Include icons or mini illustrations for each ingredient with quantities. Arrange them in clusters, lists, or circular flows connected visually to the dish. Steps Section: Show preparation steps with numbered panels, arrows, or lines, forming a logical flow around the main dish. Include small c",
+      "techniques": [
+        "modern",
+        "artificial lighting",
+        "overhead view",
+        "minimalist style",
+        "studio lighting"
+      ]
+    },
+    {
+      "rank": 4,
+      "likes": 1234,
+      "prompt": "{\n  \"project_settings\": {\n    \"task_type\": \"九宫格新年祝福肖像（男生版）\",\n    \"aspect_ratio\": \"1:1\",\n    \"grid_layout\": \"3x3\",\n    \"batch_size\": 1\n  },\n\n  \"overall_style\": {\n    \"整体风格\": \"极简新年祝福风\",\n    \"视觉基调\": \"干净、温和、克制的节日感\",\n    \"背景\": \"纯色白墙面，无装饰\",\n    \"光线\": \"自然柔光，均匀无强阴影\",\n    \"色彩重点\": \"中国红（服装 + 文字）\"\n  },\n\n  \"subject_base\": {\n    \"人物一致性\": \"九宫格内为同一位人物\",\n    \"人物类型\": \"亚洲男性\",\n    \"性别气质\": \"干净、阳光、自然，不油腻\",\n    \"发型\": \"黑色短发，自然蓬松，简洁利落\",\n    \"服装\": \"红色针织毛衣或卫衣，简洁无图案\",\n    \"妆容\": \"无明显妆感，真实自然肤质\",\n    \"表情气质\": \"开心，克制的微笑，不夸张\"\n  },\n\n  \"pose_variations\": {\n    \"grid_1\": \"食指竖于嘴前，轻松安静手势\",\n    \"grid_2\": \"单手比 V 手势靠近脸部\",\n    \"grid_3\"",
+      "techniques": [
+        "JSON structure",
+        "array/list format"
+      ]
+    },
+    {
+      "rank": 5,
+      "likes": 1204,
+      "prompt": "[BRAND NAME]. Act as a vector illustrator designing a trendy, high-end \"Sticker Sheet\" set.\nTHE TASK:\nDeconstruct the brand identity of [BRAND NAME] into a playful, cohesive set of approximately 8-10 unique sticker designs arranged on a single sheet.\nContent Generation: Do not just make logos. Autonomously invent a mix of:\nMascots/Characters: Stylized busts of people wearing brand-relevant accessories or expressing emotions.\nKey Products: Iconic items associated with the brand.\nSymbols/Objects: Abstract shapes or tools relevant to the brand's lifestyle.\n\nVISUAL STYLE (MONOLINE VECTOR):\nThe art",
+      "techniques": [
+        "modern",
+        "artificial lighting",
+        "abstract",
+        "vibrant colors",
+        "color grading"
+      ]
+    },
+    {
+      "rank": 6,
+      "likes": 1185,
+      "prompt": "[BRAND NAME]. Act as a vector illustrator designing a trendy, high-end \"Sticker Sheet\" set.\nTHE TASK:\nDeconstruct the brand identity of [BRAND NAME] into a playful, cohesive set of approximately 8-10 unique sticker designs arranged on a single sheet.\nContent Generation: Do not just make logos. Autonomously invent a mix of:\nMascots/Characters: Stylized busts of people wearing brand-relevant accessories or expressing emotions.\nKey Products: Iconic items associated with the brand.\nSymbols/Objects: Abstract shapes or tools relevant to the brand's lifestyle.\n\nVISUAL STYLE (MONOLINE VECTOR):\nThe art",
+      "techniques": [
+        "modern",
+        "artificial lighting",
+        "abstract",
+        "vibrant colors",
+        "color grading"
+      ]
+    },
+    {
+      "rank": 7,
+      "likes": 1093,
+      "prompt": "A refined fashion editorial image with a 3:4 aspect ratio, split into two clear sections.\n\nRight side:\nA fashionable, confident, sensual woman standing and walking casually in a modern architectural space with red luxurious walls and soft natural light. She wears a top with a deep V neckline, a 90-60-90 figure, tucked into a high-waisted blue tailored short skirt, On her feet are sleek black stiletto heels, elegant and minimal. She carries a small structured red handbag in one hand and she is wearing a luxurious diamond necklace with a blue diamond on it.\n\nHer hair is open emphasizing her faci",
+      "techniques": [
+        "depth of field",
+        "natural lighting",
+        "hard lighting",
+        "specific lens",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 8,
+      "likes": 820,
+      "prompt": "A highly detailed aerial view photo of Times Square on New Year’s Eve, packed with crowds, glowing billboards, confetti in the air, and realistic reflections on wet asphalt at night https://t.co/sqyuIraKe7",
+      "techniques": [
+        "high detail",
+        "overhead view",
+        "array/list format",
+        "artificial lighting"
+      ]
+    },
+    {
+      "rank": 9,
+      "likes": 515,
+      "prompt": "A preservation architect's survey board for [BUILDING / STRUCTURE] — [STYLE / ARCHITECT / PERIOD]. Left section: site plan and context, showing the structure in its urban or landscape setting with orientation, shadows, and neighboring relationships mapped. Center section: the building dissected, a cutaway axonometric revealing structural system, material layers, hidden infrastructure, with callouts identifying original versus modified elements. Right section: the building as experienced, photographed from the canonical viewpoint in ideal light, with human figures for scale and life, the archit",
+      "techniques": [
+        "array/list format",
+        "centered composition"
+      ]
+    },
+    {
+      "rank": 10,
+      "likes": 480,
+      "prompt": "“Create an infographic image of [FOOD], combining a realistic photograph or photoreal render of the object with technical annotation overlays placed directly on top.\n\nUse black ink–style line drawings and text (technical pen / architectural sketch look) on a pure white studio background, including:\n•Key component labels\n•Internal cutaway or exploded-view outlines\n•Measurements, dimensions, and scale markers\n•Material callouts and quantities\n•Arrows indicating function, force, or flow (air, sound, power, pressure)\n•Simple schematic or sectional diagrams where relevant\n\nPlace the title “FOOD” in",
+      "techniques": [
+        "negative space",
+        "sharp focus",
+        "color grading",
+        "photorealistic",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 11,
+      "likes": 475,
+      "prompt": "[BRAND NAME]. Act as a Creative Director and Still Life Photographer for a hypebeast fashion publication.\nTHE TASK:\nCreate a high-end \"Showroom Still Life\" photograph announcing a limited merchandise drop for [BRAND NAME].\nPHASE 1: AUTONOMOUS CURATION (STRATEGY)\nAnalyze [BRAND NAME]: Identify the industry and the core physical product (e.g., if \"Spalding\" -> Basketballs; if \"McDonald's\" -> Burger Boxes; if \"Visa\" -> Metal Cards).\nDetermine the Palette:\nBackground Color: A deep, rich, textured tone derived from the brand's secondary palette (e.g., Teal, Navy, Burgundy, Slate Grey).\nMerch Color:",
+      "techniques": [
+        "modern",
+        "negative space",
+        "sharp focus",
+        "specific lens",
+        "texture emphasis"
+      ]
+    },
+    {
+      "rank": 12,
+      "likes": 427,
+      "prompt": "[PERSON NAME]. \nAct as a high-end sports graphic designer creating a conceptual tribute poster. The style is a complex \"dual exposure photo-grid composite\" with mixed-media textures.\nCENTRAL STRUCTURE (THE VESSEL):\nThe central focus is a large-scale, high-contrast black and white portrait silhouette of [PERSON NAME]. This main portrait acts as the container.\nTHE GRID FILL & TEXTURES (MIXED MEDIA):\nThe interior of the silhouette is populated by a dense \"photo mosaic grid\" of action shots from the person's career.\nCRITICAL TEXTURE INSTRUCTION: Do not just paste flat photos. Apply artistic textur",
+      "techniques": [
+        "negative space",
+        "texture emphasis",
+        "monochrome",
+        "centered composition",
+        "intricate details"
+      ]
+    },
+    {
+      "rank": 13,
+      "likes": 421,
+      "prompt": "Create a typographic illustration shaped like a [OBJECT], where the text [BRAND SLOGAN] forms the shape — bold and playful lettering style that fills the entire silhouette — letters adapt fluidly to the curves and contours of the [OBJECT] — [COLOR DESCRIPTION] with [BACKGROUND COLOR] background that enhances the focus on the main shape — include [BRAND] logo positioned below the [OBJECT] — vector-style, clean, high resolution, 1080x1080 pixels, square format.",
+      "techniques": [
+        "array/list format",
+        "object structure"
+      ]
+    },
+    {
+      "rank": 14,
+      "likes": 399,
+      "prompt": "Ultra-clean modern editorial infographic poster (1080x1080), premium magazine layout meets lifestyle photography/illustration.\n\n**TITLE:**\nLarge, bold sans-serif text at top center: \"HUMAN LIVER\"\n\n**CENTRAL VISUAL:**\nA realistic, high-fidelity 3D illustration of the Human Liver (showing Right/Left lobes and Gallbladder). Color palette: Terracotta, deep brownish-red, and soft coral, set against a clean soft beige/off-white background. Lighting is studio-soft.\n\n**LAYOUT SECTIONS (Matching the reference):**\n\n* **Section 1 - Quick Facts (Top Left/Right floating bubbles):**\n    * \"Weight: ~1.5 kg (",
+      "techniques": [
+        "modern",
+        "array/list format",
+        "color grading",
+        "centered composition",
+        "minimalist style"
+      ]
+    },
+    {
+      "rank": 15,
+      "likes": 361,
+      "prompt": "A high-end commercial food photograph of the same two tacos from the reference image, preserving their exact structure, fillings, proportions, and arrangement. The camera angle is slightly adjusted to a more flattering three-quarter close-up, enhancing depth and appetite appeal without altering the tacos themselves. Soft cinematic lighting highlights the textures of the tortillas and fillings, with subtle steam and natural sheen to emphasize freshness. The background is replaced with a clean, modern, out-of-focus setting in warm complementary tones that enhance the food without distracting fro",
+      "techniques": [
+        "depth of field",
+        "modern",
+        "artificial lighting",
+        "macro/closeup",
+        "specific viewpoint"
+      ]
+    }
+  ]
+}

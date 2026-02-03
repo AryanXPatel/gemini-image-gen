@@ -1,0 +1,264 @@
+[
+  {
+    "rank": 1,
+    "categories": [
+      "JSON",
+      "Photograph",
+      "Girl"
+    ],
+    "likes": 5647,
+    "prompt": "{\n  \"prompt_structure\": {\n    \"subject\": {\n      \"demographics\": \"Young  woman, mid-20s\",\n      \"facial_features\": {\n        \"skin\": \"Pale porcelain skin with visible natural texture, pores, and light freckles. Rosy flushed cheeks and nose indicating cold temperature. Hyper-realistic skin details.\",\n        \"eyes\": \"Striking hazel-green irises, sharp focus, direct eye contact. Long eyelashes catching tiny white snowflakes and frost particles.\",\n        \"hair\": \"Jet black, straight hair, slightly"
+  },
+  {
+    "rank": 2,
+    "categories": [
+      "Other",
+      "Product"
+    ],
+    "likes": 5072,
+    "prompt": "Create ONE final image. \n\nA clean 3×3 [ratio] storyboard grid with nine equal [ratio] sized panels on [4:5] ratio. \n\nUse the reference image as the base product reference. Keep the same product, packaging design, branding, materials, colors, proportions and overall identity across all nine panels exactly as the reference. The product must remain clearly recognizable in every frame. The label, logo and proportions must stay exactly the same.\n\nThis storyboard is a high-end designer mockup presenta"
+  },
+  {
+    "rank": 3,
+    "categories": [
+      "Other"
+    ],
+    "likes": 4023,
+    "prompt": "[PERSON NAME]. \nAct as a high-end sports graphic designer creating a conceptual tribute poster. The style is a complex \"dual exposure photo-grid composite\" with mixed-media textures.\nCENTRAL STRUCTURE (THE VESSEL):\nThe central focus is a large-scale, high-contrast black and white portrait silhouette of [PERSON NAME]. This main portrait acts as the container.\nTHE GRID FILL & TEXTURES (MIXED MEDIA):\nThe interior of the silhouette is populated by a dense \"photo mosaic grid\" of action shots from the"
+  },
+  {
+    "rank": 4,
+    "categories": [
+      "Other"
+    ],
+    "likes": 3967,
+    "prompt": "Crea una imagen en 31.7785° N, 35.2296° E, el 3 de abril del año 33, a las 15:00 horas. "
+  },
+  {
+    "rank": 5,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 3262,
+    "prompt": "{\n  \"meta\": {\n    \"project_name\": \"Winter Minimalist Portrait\",\n    \"model_type\": \"ultra-realistic-photography\",\n    \"aspect_ratio\": \"2:3\"\n  },\n  \"prompt_structure\": {\n    \"subject_details\": {\n      \"demographics\": \"young woman\",\n      \"hair\": \"platinum blonde, long, straight\",\n      \"skin\": \"fair porcelain skin, soft natural freckles, high detail skin texture\",\n      \"eyes\": \"expressive light-colored eyes, looking directly into the camera\",\n      \"makeup\": \"light pink blush, glossy lips\",\n     "
+  },
+  {
+    "rank": 6,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 3114,
+    "prompt": "{\n      \"id\": 1,\n      \"title\": \"2x2 Collage: Luxury Ski Trip\",\n      \"prompt_text\": \"2x2 photo collage, luxury ski influencer lifestyle. Strict face reference lock. Location: high-end ski chalet balcony (Aspen/Alps), blurred snowy mountains behind. Outfit: fitted white thermal bodysuit, white faux-fur headband, oversized Moon Boots. Natural skin texture, fresh cold girl makeup. Style: iPhone 16 Pro photo, harsh bright high-altitude winter sun, sharp shadows, strong contrast, slight lens flare, "
+  },
+  {
+    "rank": 7,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 2935,
+    "prompt": "{\n  \"style\": \"ultra-realistic studio portrait\",\n  \"subject\": {\n    \"gender\": \"female\",\n    \"age\": \"young adult\",\n    \"pose\": \"leaning slightly forward toward the camera\",\n    \"expression\": \"playful, flirty\",\n    \"facial_details\": {\n      \"wink\": true,\n      \"tongue_out\": true,\n      \"freckles\": \"natural across fair skin\",\n      \"makeup\": {\n        \"blush\": \"soft pink\",\n        \"lips\": \"glossy\"\n      }\n    },\n    \"hair\": {\n      \"color\": \"blonde\",\n      \"length\": \"long\",\n      \"part\": \"side-parte"
+  },
+  {
+    "rank": 8,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 2640,
+    "prompt": "{\n  \"image_prompt\": {\n    \"subject\": {\n      \"description\": \"Young woman , Fair skin tone, long straight light brown hair with some strands blowing in the wind.\",\n      \"pose\": \"Selfie angle, slightly tilted head, sticking tongue out playfully, looking off-camera to the side.\",\n      \"visible_body\": \"Shoulders, chest, and partial upper torso visible.\"\n    },\n    \"attire\": {\n      \"top\": \"Black bikini top with lace trim detailing on the edges and thin straps.\",\n      \"jewelry\": [\n        \"Gold la"
+  },
+  {
+    "rank": 9,
+    "categories": [
+      "3D"
+    ],
+    "likes": 2506,
+    "prompt": "Create a collection of icons representing [a theme], they belong together as a single theme. Put them in a 3x3 grid. The background is white. Make the icons in a colorful and tactile 3D style. No text.\n\n- dogs with different emotions\n- bananas\n- January\n- the same cat in different emotions"
+  },
+  {
+    "rank": 10,
+    "categories": [
+      "Photograph"
+    ],
+    "likes": 2163,
+    "prompt": "Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel. Background shows a crowded scene with motion blur (Paris Fashion Week atmosphere). Intense, spontaneous energy, imperfect and real. She is wearing a school uniform. Ultra-realistic, cinematic realism, high detail skin texture, slight lens"
+  },
+  {
+    "rank": 11,
+    "categories": [
+      "Other",
+      "3D"
+    ],
+    "likes": 1934,
+    "prompt": "Create an infographic image of [OBJECT], combining a realistic photograph or photoreal render of the object with technical annotation overlays placed directly on top.\n\nUse black ink–style line drawings and text (technical pen / architectural sketch look) on a pure white studio background, including:\n•Key component labels\n•Internal cutaway or exploded-view outlines\n•Measurements, dimensions, and scale markers\n•Material callouts and quantities\n•Arrows indicating function, force, or flow (air, soun"
+  },
+  {
+    "rank": 12,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 1839,
+    "prompt": "{\n  \"structured_prompt\": {\n    \"shot_style\": \"Ultra-photorealistic close-up portrait, Hyper-realistic editorial photography, raw style, ultra-detailed, 8k resolution, Vogue/Harper’s Bazaar professional aesthetic, perfectly balanced composition.\",\n    \"subject\": \"A world-class supermodel-level young woman.\",\n    \"facial_structure\": \"Perfectly symmetrical facial structure, high cheekbones, sharp jawline, elegant straight nose, full natural lips.\",\n    \"eyes\": \"Mesmerizing green-hazel eyes with dee"
+  },
+  {
+    "rank": 13,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 1580,
+    "prompt": "{\n  \"style\": \"ultra-realistic studio portrait\",\n  \"subject\": {\n    \"gender\": \"female\",\n    \"age\": \"young adult\",\n    \"pose\": \"leaning slightly forward toward the camera\",\n    \"expression\": \"playful, flirty\",\n    \"facial_details\": {\n      \"wink\": true,\n      \"tongue_out\": true,\n      \"freckles\": \"natural across fair skin\",\n      \"makeup\": {\n        \"blush\": \"soft pink\",\n        \"lips\": \"glossy\"\n      }\n    },\n    \"hair\": {\n      \"color\": \"brunette\",\n      \"length\": \"long\",\n      \"part\": \"side-par"
+  },
+  {
+    "rank": 14,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 1550,
+    "prompt": "{\n  \"shot\": {\n    \"composition\": \"full body dual shot, 50mm lens, static angle, high fashion composition\",\n    \"camera_motion\": \"static studio setup\",\n    \"frame_rate\": \"still photography\",\n    \"film_grain\": \"light vintage fashion grain, mimicking early 2000s campaigns\"\n  },\n  \"subject\": {\n    \"description\": \"Two female fashion models in bold editorial poses. One kneeling with long platinum pink hair, the other behind her with short black hair. Both wear mini Dior-style outfits and newspaper-pri"
+  },
+  {
+    "rank": 15,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 1529,
+    "prompt": "{\n  \"image_prompt\": {\n    \"meta\": {\n      \"aspect_ratio\": \"9:16 vertical\",\n      \"camera\": \"iPhone 15 Pro Max (rear camera)\",\n      \"lens_feel\": \"24mm wide, slight wide-angle realism without face distortion\",\n      \"quality\": \"ultra-photorealistic, looks like a real iPhone camera roll photo\",\n      \"texture_rules\": [\n        \"natural skin texture (no plastic smoothing)\",\n        \"subtle smartphone noise/grain in shadows\",\n        \"tiny handheld imperfections (micro-tilt, not perfectly centered)\""
+  },
+  {
+    "rank": 16,
+    "categories": [
+      "JSON",
+      "Girl",
+      "Photograph"
+    ],
+    "likes": 1497,
+    "prompt": "{\n  \"overall_theme\": {\n    \"description\": \"A curated series of four ultra-photorealistic vignettes showcasing a luxurious, wellness-focused lifestyle.\",\n    \"mood\": \"Calm, serene, balanced, sophisticated, peaceful, rejuvenating.\",\n    \"style\": \"Minimalist, high-end, contemporary, clean aesthetic, aspirational.\"\n  },\n  \"subject\": {\n    \"description\": \"Young woman.\",\n    \"appearance\": {\n      \"hair\": \"Long, dark brown, wavy, natural texture.\",\n      \"skin\": \"Clear, glowing, natural.\",\n      \"makeu"
+  },
+  {
+    "rank": 17,
+    "categories": [
+      "JSON",
+      "Girl",
+      "App"
+    ],
+    "likes": 1495,
+    "prompt": "{\n\n    \"title\": \"LA Rooftop Poolside Selfie\",\n    \"style_attributes\": [\n      \"Ultra-realistic cinematic lifestyle photography\",\n      \"8K resolution\",\n      \"Hyper-detailed\",\n      \"Photorealistic\",\n      \"iPhone-style casual shot\",\n      \"Cinematic photographic quality\"\n    ],\n    \"subject\": {\n      \"demographics\": \"Female, 20 years old, Slavic appearance\",\n      \"facial_features\": {\n        \"structure\": \"Naturally beautiful, well-balanced face, realistic proportions\",\n        \"eyes\": \"Large e"
+  },
+  {
+    "rank": 18,
+    "categories": [
+      "Other",
+      "Product"
+    ],
+    "likes": 1489,
+    "prompt": "First-person perspective inside a brightly lit supermarket aisle. Realistic human hands are holding a bottle of Fanta soda close to the camera. The vivid orange drink in its iconic branded bottle is surrounded by a multi-layered holographic augmented reality interface displaying nutritional data, including calorie count, sugar content, caffeine level, freshness indicator, expiration date, and recommended refreshing recipes and cocktails based on Fanta.\nThe UI elements smoothly shift and reorgani"
+  },
+  {
+    "rank": 19,
+    "categories": [
+      "Photograph"
+    ],
+    "likes": 1424,
+    "prompt": "Create an infographic image of [LANDMARK], combining a real photograph of the landmark with blueprint-style technical annotations and diagrams overlaid on the image. Include the title “[LANDMARK]” in a hand-drawn box in the corner. Add white chalk-style sketches showing key structural data, important measurements, material quantities, internal diagrams, load-flow arrows, cross-sections, floor plans, and notable architectural or engineering features. Style: blueprint aesthetic with white line dra"
+  },
+  {
+    "rank": 20,
+    "categories": [
+      "Food"
+    ],
+    "likes": 1389,
+    "prompt": "“Ultra-clean modern recipe infographic. Showcase briyani in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view. Arrange ingredients, steps, and tips around the dish in a dynamic editorial layout, not restricted to top-down. Ingredients Section: Include icons or mini illustrations for each ingredient with quantities. Arrange them in clusters, lists, or circular flows connected visually to the dish. Steps Section: Show preparation steps "
+  },
+  {
+    "rank": 21,
+    "categories": [
+      "Product"
+    ],
+    "likes": 1299,
+    "prompt": "Create an exploded products with inner mechanics [product], high-end product advertising, white seamless background, exploded view with inner mechanics revealed, outer shell hovering above core, micro screws and components suspended, perfect alignment guides implied, crisp soft shadow, ultra realistic, macro product photography, 100mm lens look, f/8, 8k, 1:1"
+  },
+  {
+    "rank": 22,
+    "categories": [
+      "JSON"
+    ],
+    "likes": 1234,
+    "prompt": "{\n  \"project_settings\": {\n    \"task_type\": \"九宫格新年祝福肖像（男生版）\",\n    \"aspect_ratio\": \"1:1\",\n    \"grid_layout\": \"3x3\",\n    \"batch_size\": 1\n  },\n\n  \"overall_style\": {\n    \"整体风格\": \"极简新年祝福风\",\n    \"视觉基调\": \"干净、温和、克制的节日感\",\n    \"背景\": \"纯色白墙面，无装饰\",\n    \"光线\": \"自然柔光，均匀无强阴影\",\n    \"色彩重点\": \"中国红（服装 + 文字）\"\n  },\n\n  \"subject_base\": {\n    \"人物一致性\": \"九宫格内为同一位人物\",\n    \"人物类型\": \"亚洲男性\",\n    \"性别气质\": \"干净、阳光、自然，不油腻\",\n    \"发型\": \"黑色短发，自然蓬松，简洁利落\",\n    \"服装\": \"红色针织毛衣或卫衣，简洁无图案\",\n    \"妆容\": \"无明显妆感，真实自然肤质\",\n    \"表情气质\": \"开心，克制的微笑，不夸张\"\n  "
+  },
+  {
+    "rank": 23,
+    "categories": [
+      "3D",
+      "Product"
+    ],
+    "likes": 1204,
+    "prompt": "[BRAND NAME]. Act as a vector illustrator designing a trendy, high-end \"Sticker Sheet\" set.\nTHE TASK:\nDeconstruct the brand identity of [BRAND NAME] into a playful, cohesive set of approximately 8-10 unique sticker designs arranged on a single sheet.\nContent Generation: Do not just make logos. Autonomously invent a mix of:\nMascots/Characters: Stylized busts of people wearing brand-relevant accessories or expressing emotions.\nKey Products: Iconic items associated with the brand.\nSymbols/Objects: "
+  },
+  {
+    "rank": 24,
+    "categories": [
+      "JSON",
+      "Photograph"
+    ],
+    "likes": 1203,
+    "prompt": "{\n  \"resolution\": \"8K UHD\",\n  \"aspect_ratio\": \"3:4\",\n  \"image_style\": \"hyper-realistic commercial dessert photography\",\n  \"global_settings\": {\n    \"quality\": \"Ultra-high detail, razor-sharp focus, luxury dessert clarity\",\n    \"lighting\": \"Controlled studio lighting emphasizing texture, layers, and syrup highlights\",\n    \"motion\": \"Frozen mid-air elements with subtle gravity realism\",\n    \"background_style\": \"Solid or smooth gradient background, color varies per module\",\n    \"camera\": \"High-speed"
+  },
+  {
+    "rank": 25,
+    "categories": [
+      "3D",
+      "Product"
+    ],
+    "likes": 1185,
+    "prompt": "[BRAND NAME]. Act as a vector illustrator designing a trendy, high-end \"Sticker Sheet\" set.\nTHE TASK:\nDeconstruct the brand identity of [BRAND NAME] into a playful, cohesive set of approximately 8-10 unique sticker designs arranged on a single sheet.\nContent Generation: Do not just make logos. Autonomously invent a mix of:\nMascots/Characters: Stylized busts of people wearing brand-relevant accessories or expressing emotions.\nKey Products: Iconic items associated with the brand.\nSymbols/Objects: "
+  },
+  {
+    "rank": 26,
+    "categories": [
+      "Photograph"
+    ],
+    "likes": 1133,
+    "prompt": "Ultra-realistic candid smartphone photograph, 9:16 vertical.\nUse the attached image only as a strong visual inspiration for general facial proportions and vibe,\nwhile ensuring the generated subject remains fully original, non-identifiable, and not a face copy.\nScene\nNighttime on a quiet Tokyo city sidewalk beside a building with white ceramic tile walls.\nThe subject is walking past the camera, partially side-on, captured mid-step in a rushed, accidental moment.\nPoses & Gestures (combined natural"
+  },
+  {
+    "rank": 27,
+    "categories": [
+      "Other"
+    ],
+    "likes": 1124,
+    "prompt": "[Create a hand drawn isometric schematic diagram of this street]"
+  },
+  {
+    "rank": 28,
+    "categories": [
+      "Product",
+      "Photograph"
+    ],
+    "likes": 1093,
+    "prompt": "A refined fashion editorial image with a 3:4 aspect ratio, split into two clear sections.\n\nRight side:\nA fashionable, confident, sensual woman standing and walking casually in a modern architectural space with red luxurious walls and soft natural light. She wears a top with a deep V neckline, a 90-60-90 figure, tucked into a high-waisted blue tailored short skirt, On her feet are sleek black stiletto heels, elegant and minimal. She carries a small structured red handbag in one hand and she is we"
+  },
+  {
+    "rank": 29,
+    "categories": [
+      "JSON",
+      "Girl"
+    ],
+    "likes": 1087,
+    "prompt": "{\n  \"meta\": {\n    \"aspect_ratio\": \"9:16\",\n    \"quality\": \"ultra_photorealistic\",\n    \"resolution\": \"8k\",\n    \"camera\": \"iPhone front camera\",\n    \"lens\": \"24mm\",\n    \"style\": \"raw iPhone mirror realism, zero smoothing, heavy reflections, subtle grain, imperfect exposure\"\n  },\n\n  \"scene\": {\n    \"location\": \"luxury apartment elevator\",\n    \"environment\": [\n      \"mirror walls on three sides\",\n      \"brushed stainless steel panels\",\n      \"glass-like reflection layering (multiple reflections of bod"
+  },
+  {
+    "rank": 30,
+    "categories": [
+      "JSON"
+    ],
+    "likes": 1061,
+    "prompt": "{\n  \"project_meta\": {\n    \"title\": \"Monochromatic Orange High-Fashion Editorial\",\n    \"style\": \"Ultra-photorealistic, 8K, luxury magazine aesthetic\",\n    \"mood\": \"Bold, glamorous, confident, seductive\"\n  },\n  \"environment\": {\n    \"setting\": \"Minimalist professional studio\",\n    \"background\": \"Solid seamless vibrant orange backdrop and floor\",\n    \"props\": \"None (clean surface)\",\n    \"lighting\": \"Soft frontal key light, warm calibration, controlled shadows\"\n  },\n  \"subject\": {\n    \"likeness\": \"Sy"
+  }
+]

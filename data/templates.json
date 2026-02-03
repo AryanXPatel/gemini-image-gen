@@ -1,0 +1,44 @@
+{
+  "templates": {
+    "food": {
+      "name": "Food Photography",
+      "pattern": "{subject}, high-end culinary magazine photography.\n\nVisual Style:\nBon Appétit editorial aesthetic. Warm earth tones with cream and amber highlights. Hasselblad medium format quality.\n\nComposition:\n45-degree overhead angle, 85mm lens, f/2.8, shallow depth of field.\n\nSensory Details:\nSteam wisps rising, surfaces glisten with freshness, textures feel tangible, aroma seems to penetrate the frame.\n\nConstraints:\nNo utensils. No text or watermarks. Maintain appetizing warm color temperature."
+    },
+    "portrait": {
+      "name": "Portrait Photography",
+      "pattern": "{subject}, cinematic portrait.\n\nVisual Style:\nWong Kar-wai and Saul Leiter aesthetics. Deep saturated colors with emotional depth. Shot with 90mm lens, f/1.8, Kodak Vision3 500T film grain.\n\nLighting & Atmosphere:\nSoft side lighting with subtle rim light separation. Dreamy, emotionally evocative mood.\n\nConstraints:\nMaintain realistic facial features. Do not alter identity characteristics. Natural skin texture."
+    },
+    "product": {
+      "name": "Product Photography",
+      "pattern": "{subject}, premium advertising photography.\n\nVisual Style:\nHasselblad medium format quality. Apple-style product aesthetics. Clean, minimal, premium feel.\n\nComposition:\nFloating composition on seamless background. 100mm lens, f/8, high dynamic range.\n\nLighting:\nHigh-key studio lighting with soft shadows. Rim light for edge separation.\n\nConstraints:\nProduct must not be distorted. No text or watermarks. Maintain accurate proportions."
+    },
+    "cinematic": {
+      "name": "Cinematic Scene",
+      "pattern": "{subject}, cinematic film still.\n\nVisual Style:\nChristopher Doyle cinematography. Cinestill 800T color palette. 35mm anamorphic lens, 2.39:1 aspect ratio feel.\n\nLighting:\nVolumetric light with atmospheric haze. Chiaroscuro contrast. Practical light sources visible.\n\nAtmosphere:\nCinematic tension and mood. Environmental storytelling.\n\nConstraints:\nMaintain cinematic color grading. No flat lighting."
+    },
+    "3d": {
+      "name": "3D Icon/Render",
+      "pattern": "{subject}, soft 3D render.\n\nStyle:\nClaymorphism aesthetic. Soft, tactile materials. Blender/C4D quality rendering.\n\nComposition:\n3x3 grid layout on pure white background. Consistent lighting direction.\n\nMaterials:\nSubtle subsurface scattering. Ambient occlusion for depth. Soft studio lighting.\n\nConstraints:\nNo text. Clean edges. Consistent style across all elements."
+    },
+    "japanese": {
+      "name": "Japanese Aesthetic",
+      "pattern": "{subject}, Japanese aesthetic.\n\nVisual Style:\nWabi-sabi aesthetics. MUJI visual language. Muted, desaturated palette with soft cream and sage tones.\n\nLighting:\nHigh-key, diffused natural light. Minimal shadows. Soft, breathing quality.\n\nComposition:\nGenerous negative space (Ma). Simple, intentional arrangement. Quiet minimalism.\n\nConstraints:\nNo high-saturation colors. No cluttered elements. Maintain serene, contemplative mood."
+    },
+    "poster": {
+      "name": "Design Poster",
+      "pattern": "{subject}, graphic design poster.\n\nVisual Style:\nSwiss International Style principles. Bold geometric forms. Limited color palette (3 colors maximum).\n\nLayout:\nStrong grid system. Clear typographic hierarchy. Intentional negative space.\n\nConstraints:\nClear information hierarchy. No decorative clutter. Maintain visual rhythm."
+    },
+    "app": {
+      "name": "App/UI Mockup",
+      "pattern": "{subject}, mobile app UI design mockup.\n\nVisual Style:\nModern glassmorphism or soft neumorphism. Clean, minimal interface. Premium tech aesthetic.\n\nPresentation:\nFloating device mockup with subtle shadow. Clean gradient or solid background.\n\nDetails:\nRealistic screen content. Consistent iconography. Professional typography.\n\nConstraints:\nNo placeholder text. Maintain realistic proportions. Clean, polished finish."
+    }
+  },
+  "modifiers": {
+    "photorealistic": "Ultra-realistic, photorealistic quality, high detail, 8K resolution",
+    "dramatic": "Dramatic lighting, volumetric light, chiaroscuro contrast, cinematic mood",
+    "soft": "Soft, diffused lighting, gentle shadows, dreamy quality, pastel tones",
+    "vintage": "Kodak Vision3 500T film grain, warm color cast, nostalgic feel, slight vignette",
+    "minimal": "Minimal composition, generous negative space, clean lines, simple forms",
+    "vibrant": "Vibrant saturated colors, high contrast, bold tones, energetic feel"
+  }
+}
