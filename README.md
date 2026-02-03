@@ -16,16 +16,24 @@ Generate stunning AI images using Google's **Gemini** image generation models wi
 
 ### Option 1: Direct API Key (Recommended)
 
-```bash
-# Set your Google AI Studio API key
-export GEMINI_API_KEY=your_api_key_here
-
-# Install the plugin
-cp -r gemini-image-gen ~/.claude/plugins/
-
-# Use it!
-# In Claude Code: /image a cyberpunk samurai in rain
+**Windows (PowerShell):**
+```powershell
+$env:GEMINI_API_KEY = "your_api_key_here"
 ```
+
+**Windows (Git Bash / CMD):**
+```bash
+export GEMINI_API_KEY=your_api_key_here
+# Or for CMD:
+set GEMINI_API_KEY=your_api_key_here
+```
+
+**macOS / Linux:**
+```bash
+export GEMINI_API_KEY=your_api_key_here
+```
+
+Then install the plugin (see Installation section below).
 
 ### Option 2: With Proxy
 
@@ -33,20 +41,42 @@ cp -r gemini-image-gen ~/.claude/plugins/
 # Start the antigravity-claude-proxy
 cd antigravity-claude-proxy && npm start
 
-# Install the plugin
-cp -r gemini-image-gen ~/.claude/plugins/
-
-# Use it!
-# In Claude Code: /image a bowl of ramen
+# Install the plugin (see Installation section below)
+# Use it in Claude Code: /image a bowl of ramen
 ```
 
 ## Installation
 
 ### From GitHub
 
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/AryanXPatel/gemini-image-gen.git
+Copy-Item -Recurse gemini-image-gen "$env:USERPROFILE\.claude\plugins\gemini-image-gen"
+```
+
+**Windows (Git Bash / MINGW64):**
 ```bash
-git clone https://github.com/YOUR_USERNAME/gemini-image-gen.git
+git clone https://github.com/AryanXPatel/gemini-image-gen.git
+cp -r gemini-image-gen ~/. claude/plugins/
+# Or if you're inside the repo:
+cd .. && cp -r gemini-image-gen ~/.claude/plugins/
+```
+
+**macOS / Linux:**
+```bash
+git clone https://github.com/AryanXPatel/gemini-image-gen.git
 cp -r gemini-image-gen ~/.claude/plugins/
+```
+
+**Already inside the repo?**
+```bash
+# Go up one directory first
+cd ..
+cp -r gemini-image-gen ~/.claude/plugins/
+
+# Or copy current directory
+cp -r . ~/.claude/plugins/gemini-image-gen
 ```
 
 ### From Claude Code Marketplace
