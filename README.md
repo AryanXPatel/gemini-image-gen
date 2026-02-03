@@ -58,7 +58,7 @@ Copy-Item -Recurse gemini-image-gen "$env:USERPROFILE\.claude\plugins\gemini-ima
 **Windows (Git Bash / MINGW64):**
 ```bash
 git clone https://github.com/AryanXPatel/gemini-image-gen.git
-cp -r gemini-image-gen ~/. claude/plugins/
+cp -r gemini-image-gen ~/.claude/plugins/
 # Or if you're inside the repo:
 cd .. && cp -r gemini-image-gen ~/.claude/plugins/
 ```
@@ -82,7 +82,11 @@ cp -r . ~/.claude/plugins/gemini-image-gen
 ### From Claude Code Marketplace
 
 ```
-/plugin install gemini-image-gen
+# Add the marketplace first
+/plugin marketplace add AryanXPatel/aryanxpatel-plugins
+
+# Then install the plugin
+/plugin install gemini-image-gen@aryanxpatel
 ```
 
 ## Usage

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Generate stunning images using Google's Gemini 3 Pro Image model with pro-level prompt optimization based on 1,186 viral prompts",
   "author": {
-    "name": "Claude Code User"
+    "name": "Aryan Patel",
+    "github": "AryanXPatel"
   },
+  "homepage": "https://github.com/AryanXPatel/gemini-image-gen",
+  "repository": "https://github.com/AryanXPatel/gemini-image-gen",
+  "license": "MIT",
   "keywords": ["image-generation", "gemini", "ai-art", "prompt-engineering", "nanobanana"]
 }
