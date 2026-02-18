@@ -228,28 +228,32 @@ No utensils. No text. Maintain appetizing warm color temperature.
 
 ## Build Your Own Skill
 
-This plugin demonstrates how to turn a data source (nanobanana trending prompts) + API access (antigravity proxy for Gemini) into a powerful Claude Code skill.
+This plugin demonstrates how to turn **external knowledge** (nanobanana pro trending prompts analysis) + **API access** (Google Gemini) into a powerful Claude Code skill.
+
+**The key insight**: You don't need complex proxy setups! Extract the knowledge, codify it into a skill, and only call APIs when needed for execution.
 
 **Want to create your own?** 
 
 📖 Read the comprehensive guide: [**docs/CREATE-YOUR-OWN-SKILL.md**](docs/CREATE-YOUR-OWN-SKILL.md)
 
 Learn how to:
-- Structure a Claude Code plugin with skills
+- Turn external system knowledge (like Google Antigravity, datasets) into Claude skills
 - Extract patterns from your data source
-- Connect to external APIs via proxy
+- Connect to external APIs when needed (optional)
 - Create commands, agents, and skills
 - Build reusable knowledge modules
 
 This repo serves as a reference implementation for the pattern:
 ```
-Data Source + API Access → Claude Code Skill
+External Knowledge + (Optional) API Access → Claude Code Skill
 ```
+
+The **skill** contains the value (rules, patterns, techniques). API calls are just for execution.
 
 ## Credits
 
 - **Prompt Optimization Rules**: Derived from [nanobanana-trending-prompts](https://github.com/jau123/nanobanana-trending-prompts) (1,186 viral prompts analysis)
-- **Proxy Support**: [antigravity-claude-proxy](https://github.com/anthropics/antigravity-claude-proxy)
+- **Proxy Support**: Optional fallback for multi-account scenarios
 
 ## License
 

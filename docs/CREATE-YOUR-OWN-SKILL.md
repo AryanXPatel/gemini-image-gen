@@ -1,23 +1,33 @@
-# How to Create Your Own Skill from Antigravity + Data Source
+# How to Create Your Own Skill from External Systems + Data
 
-This guide explains how this repository turned the **antigravity-claude-proxy** (for Gemini API access) and **nanobanana-trending-prompts** (viral prompt dataset) into a fully functional Claude Code skill.
+This guide explains how to turn functionality from **external systems** (like Google's Antigravity IDE, APIs, datasets) into a fully functional Claude Code skill.
 
-## Understanding the Components
+## Understanding the Pattern
 
-### 1. Antigravity Claude Proxy
-- **What it is**: A proxy server that provides Claude Code with access to external AI services (like Google's Gemini)
-- **Why we need it**: Claude Code can't directly access external APIs, so the proxy acts as a bridge
-- **In this plugin**: Provides access to Gemini 3 Pro Image model
+This repository demonstrates converting:
+- **External API access** → Google Gemini image generation via API
+- **External data/knowledge** → Nanobanana Pro dataset (1,186 viral prompts)
+- **Into a Claude skill** → The `prompt-mastery` skill with optimization rules
 
-### 2. Nanobanana Trending Prompts
-- **What it is**: A dataset of 1,186 viral AI-generated image prompts
-- **Why we need it**: Provides patterns and best practices for prompt optimization
-- **In this plugin**: Analyzed to extract 6 core optimization rules
+### The Three Key Components
+
+### 1. External System/API
+- **What it is**: Any external service or IDE (like Google's Antigravity, APIs, databases)
+- **Challenge**: Claude Code can't directly access external systems
+- **Solution**: Create a bridge (proxy, API wrapper, or direct API calls)
+- **In this plugin**: Google Gemini API (called via Node.js script)
+
+### 2. Knowledge/Data Source
+- **What it is**: Datasets, documentation, or expertise (like nanobanana pro with viral prompts)
+- **Challenge**: How to distill knowledge into usable patterns
+- **Solution**: Analyze data → Extract rules → Codify in skill
+- **In this plugin**: 1,186 prompts analyzed → 6 optimization rules extracted
 
 ### 3. Claude Code Skill
-- **What it is**: A reusable knowledge module that Claude can invoke
-- **Why we need it**: Encapsulates expertise (prompt optimization) in a lightweight format
-- **In this plugin**: The `prompt-mastery` skill teaches Claude how to optimize prompts
+- **What it is**: A markdown file that teaches Claude how to apply the knowledge
+- **Why we need it**: Encapsulates expertise in a reusable, lightweight format
+- **How it works**: Claude reads the skill and applies the rules/patterns
+- **In this plugin**: The `prompt-mastery` skill teaches prompt optimization
 
 ## The Skill Architecture
 
@@ -209,78 +219,81 @@ node "${CLAUDE_PLUGIN_ROOT}/scripts/your-script.js" "$PROMPT"
 \`\`\`
 ```
 
-### Step 6: Connect to Your External Service (Antigravity)
+### Step 6: Connect to Your External System
 
-If you're using the antigravity-claude-proxy or similar:
+If you need to access external APIs, databases, or services:
 
-1. **Create a generation script:**
+1. **Create an integration script:**
 ```javascript
 // scripts/gen.js
-const http = require('http');
+const https = require('https');
 
-const PROXY_HOST = process.env.PROXY_HOST || 'localhost';
-const PROXY_PORT = process.env.PROXY_PORT || 8080;
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.YOUR_API_KEY;
+const API_ENDPOINT = process.env.API_ENDPOINT || 'https://api.example.com';
 
-async function generate(prompt) {
-  // Option 1: Direct API call if API key is provided
+async function callExternalAPI(input) {
+  // Option 1: Direct API call with API key
   if (API_KEY) {
-    // Make direct API call
-    return await callApiDirectly(prompt);
+    return await callApiDirectly(input);
   }
   
-  // Option 2: Use proxy
-  return await callViaProxy(prompt);
+  // Option 2: Via local proxy/bridge if you have one
+  return await callViaProxy(input);
 }
 
-async function callViaProxy(prompt) {
+async function callApiDirectly(input) {
   return new Promise((resolve, reject) => {
     const options = {
-      hostname: PROXY_HOST,
-      port: PROXY_PORT,
+      hostname: 'api.example.com',
       path: '/generate',
       method: 'POST',
       headers: {
+        'Authorization': `Bearer ${API_KEY}`,
         'Content-Type': 'application/json'
       }
     };
     
-    const req = http.request(options, (res) => {
+    const req = https.request(options, (res) => {
       let data = '';
       res.on('data', (chunk) => data += chunk);
       res.on('end', () => resolve(JSON.parse(data)));
     });
     
     req.on('error', reject);
-    req.write(JSON.stringify({ prompt }));
+    req.write(JSON.stringify({ input }));
     req.end();
   });
 }
 
 // Run if called directly
 if (require.main === module) {
-  const prompt = process.argv[2];
-  generate(prompt).then(console.log).catch(console.error);
+  const input = process.argv[2];
+  callExternalAPI(input).then(console.log).catch(console.error);
 }
 
-module.exports = { generate };
+module.exports = { callExternalAPI };
 ```
 
 2. **Document setup in README:**
 ```markdown
 ## Setup
 
-### Option 1: Direct API Key
-\`\`\`bash
-export YOUR_API_KEY=your_key_here
-\`\`\`
+### Get Your API Key
+1. Sign up at [service provider]
+2. Generate an API key
+3. Set it: `export YOUR_API_KEY=your_key_here`
 
-### Option 2: Via Proxy
+### Test Connection
 \`\`\`bash
-cd antigravity-claude-proxy
-npm start
+node scripts/gen.js "test input"
 \`\`\`
 ```
+
+**For Google Antigravity or similar IDEs:**
+- If you were using a proxy to access Antigravity, replace that with direct API calls
+- Extract the knowledge/data from Antigravity into local files (JSON, markdown)
+- Create a skill that codifies the patterns you learned
+- Use scripts to call external APIs only when needed
 
 ### Step 7: Add Data Files
 
@@ -357,17 +370,19 @@ node scripts/your-script.js "test"
 ## Real-World Example: This Plugin
 
 ### What We Had
-1. **Antigravity proxy** providing Gemini API access
-2. **Nanobanana dataset** with 1,186 viral prompts
-3. **Goal**: Make it easy to generate optimized images
+1. **Google Gemini API** - External image generation service
+2. **Nanobanana Pro dataset** - 1,186 viral AI image prompts
+3. **Goal**: Make it easy to generate professionally optimized images in Claude Code
 
 ### What We Built
-1. **Extracted 6 rules** from the dataset analysis
-2. **Created prompt-mastery skill** to teach optimization
-3. **Built /image command** for easy invocation
-4. **Added image-gen agent** for lightweight processing
-5. **Created gen.js script** to call Gemini via proxy/API
-6. **Organized data** into categorized JSON files
+1. **Analyzed the dataset** → Extracted 6 core optimization rules
+2. **Created prompt-mastery skill** → Teaches Claude the optimization patterns
+3. **Built /image command** → Easy user interface
+4. **Added image-gen agent** → Lightweight executor with embedded rules
+5. **Created gen.js script** → Calls Gemini API directly
+6. **Organized data** → Categorized prompts into JSON files for reference
+
+### How It Works Together
 
 ### The Result
 
@@ -407,15 +422,15 @@ node scripts/your-script.js "test"
 │               Calls external API with prompt                     │
 │                                                                   │
 │    ┌─────────────────┐              ┌─────────────────┐        │
-│    │  Direct API?    │──Yes──►      │  Google AI      │        │
-│    │ (GEMINI_API_KEY)│              │  Studio API     │        │
+│    │  Has API Key?   │──Yes──►      │  Google Gemini  │        │
+│    │ (GEMINI_API_KEY)│              │  API (Direct)   │        │
 │    └────────┬────────┘              └─────────────────┘        │
 │             │No                                                  │
 │             ▼                                                    │
-│    ┌─────────────────┐              ┌─────────────────┐        │
-│    │  Proxy Mode     │──►           │  Antigravity    │        │
-│    │  (localhost)    │              │  Claude Proxy   │        │
-│    └─────────────────┘              └─────────────────┘        │
+│    ┌─────────────────┐                                          │
+│    │  Error: Need    │                                          │
+│    │  API Key        │                                          │
+│    └─────────────────┘                                          │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
                            ▼
@@ -433,13 +448,28 @@ node scripts/your-script.js "test"
 
 **Data Flow:**
 ```
-nanobanana dataset → analysis → 6 optimization rules
-                                      ↓
-                           prompt-mastery skill
-                                      ↓
-                           embedded in agent & references
-                                      ↓
-                           applied to user prompts
+External System (e.g., Google Antigravity, API, Database)
+                           ↓
+            Extract knowledge/data locally
+                           ↓
+              Analyze patterns & rules
+                           ↓
+          Codify into Claude Code skill
+                           ↓
+         Skill applied via agents/commands
+                           ↓
+    (Optional) Call external API for execution
+```
+
+**Example with Nanobanana Pro:**
+```
+Nanobanana Pro dataset → Local JSON files → Analysis → 6 rules
+                                                         ↓
+                                            prompt-mastery skill
+                                                         ↓
+                                      embedded in agent & references
+                                                         ↓
+                                        applied to user prompts
 ```
 
 ## Advanced Tips
@@ -460,9 +490,33 @@ Read `${CLAUDE_PLUGIN_ROOT}/data/templates.json` and apply genre-specific patter
 
 ### Error Handling
 ```markdown
-If proxy connection fails, fall back to direct API.
-If API key missing, provide helpful setup instructions.
+If external API fails, provide helpful error messages.
+If API key missing, show setup instructions.
+Cache responses when possible to reduce API calls.
 ```
+
+## Converting from Other Systems
+
+### If You Have a Proxy Setup
+1. **Extract the data** - Download/export what the proxy accesses
+2. **Analyze patterns** - What makes good outputs?
+3. **Create local files** - Store knowledge as JSON/markdown
+4. **Build the skill** - Codify the patterns
+5. **Optional**: Keep API calls only for execution, not for knowledge
+
+### If You're Using Google Antigravity
+1. **Export your data** - Get prompts, configurations, examples
+2. **Document patterns** - What techniques work best?
+3. **Create templates** - Reusable structures
+4. **Build the skill** - Teaching Claude the patterns
+5. **Connect API** - Only if you need real-time execution
+
+### If You Have Nanobanana Pro Access
+1. **Analyze the prompts** - Find common patterns
+2. **Extract techniques** - What makes them viral?
+3. **Categorize by type** - Food, portrait, product, etc.
+4. **Create rules** - Professional terms, quantified params, etc.
+5. **Build templates** - Genre-specific patterns
 
 ## Common Pitfalls
 
@@ -494,9 +548,21 @@ If API key missing, provide helpful setup instructions.
 ## Additional Resources
 
 - **This plugin's structure**: Use as a reference implementation
-- **Claude Code documentation**: Plugin development guide
-- **Antigravity proxy**: https://github.com/anthropics/antigravity-claude-proxy
+- **Claude Code documentation**: Plugin development guide  
+- **Nanobanana**: Viral prompt datasets for analysis
 - **Skill best practices**: See `docs/ARCHITECTURE-DECISIONS.md`
+
+## Key Takeaway
+
+**You don't need a proxy to create a skill!** 
+
+The skill is about **knowledge**, not connectivity. Even if you had Antigravity or another system before:
+1. Extract the knowledge/patterns
+2. Store them locally (data files, markdown)
+3. Create a skill that teaches Claude those patterns
+4. Only use API calls when you need real-time execution
+
+Most of the value is in the **skill** (the rules, patterns, techniques), not the API connection.
 
 ---
 
