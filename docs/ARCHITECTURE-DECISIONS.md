@@ -2,6 +2,8 @@
 
 This document captures key architectural decisions made during plugin development.
 
+> **📖 Want to build your own plugin?** See [CREATE-YOUR-OWN-SKILL.md](CREATE-YOUR-OWN-SKILL.md) for a comprehensive guide on replicating this architecture pattern.
+
 ---
 
 ## ADR-001: Plugin over Skill or MCP Server
