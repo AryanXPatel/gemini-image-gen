@@ -2,6 +2,11 @@
 
 Thank you for your interest in contributing!
 
+## Architecture Guide
+
+Want to understand how this plugin works or create your own?  
+📖 Read: [**docs/CREATE-YOUR-OWN-SKILL.md**](docs/CREATE-YOUR-OWN-SKILL.md)
+
 ## Ways to Contribute
 
 ### 1. Add New Prompts

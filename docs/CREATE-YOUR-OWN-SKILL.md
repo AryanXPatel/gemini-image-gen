@@ -370,16 +370,76 @@ node scripts/your-script.js "test"
 6. **Organized data** into categorized JSON files
 
 ### The Result
-```
-User: /image a bowl of ramen
 
-Plugin:
-1. Command triggers agent
-2. Agent invokes prompt-mastery skill
-3. Skill optimizes prompt using 6 rules
-4. Agent calls gen.js with optimized prompt
-5. gen.js calls Gemini (via proxy or direct)
-6. Image generated and saved
+**Flow Diagram:**
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                          User Input                              │
+│                    /image a bowl of ramen                        │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    1. Command (image.md)                         │
+│              Parses arguments, spawns agent                      │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   2. Agent (image-gen.md)                        │
+│           Lightweight Haiku agent with embedded rules            │
+│          - Detects genre (food)                                  │
+│          - Loads templates from data/                            │
+│          - Applies prompt-mastery skill knowledge                │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              3. Skill (prompt-mastery/SKILL.md)                  │
+│                   Optimizes prompt:                              │
+│    "a bowl of ramen" → "Steaming bowl of authentic Japanese     │
+│     tonkotsu ramen, 45° overhead, 85mm f/2.8, steam wisps..."   │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   4. Script (scripts/gen.js)                     │
+│               Calls external API with prompt                     │
+│                                                                   │
+│    ┌─────────────────┐              ┌─────────────────┐        │
+│    │  Direct API?    │──Yes──►      │  Google AI      │        │
+│    │ (GEMINI_API_KEY)│              │  Studio API     │        │
+│    └────────┬────────┘              └─────────────────┘        │
+│             │No                                                  │
+│             ▼                                                    │
+│    ┌─────────────────┐              ┌─────────────────┐        │
+│    │  Proxy Mode     │──►           │  Antigravity    │        │
+│    │  (localhost)    │              │  Claude Proxy   │        │
+│    └─────────────────┘              └─────────────────┘        │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    5. Gemini API Response                        │
+│                  Image data (base64/URL)                         │
+└──────────────────────────┬──────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    6. Save & Return Result                       │
+│           Image saved to disk, path returned to user             │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Data Flow:**
+```
+nanobanana dataset → analysis → 6 optimization rules
+                                      ↓
+                           prompt-mastery skill
+                                      ↓
+                           embedded in agent & references
+                                      ↓
+                           applied to user prompts
 ```
 
 ## Advanced Tips
