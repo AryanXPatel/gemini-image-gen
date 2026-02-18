@@ -12,6 +12,8 @@ Generate stunning AI images using Google's **Gemini** image generation models wi
 - 🔑 **Flexible Setup** - Works with direct API key OR proxy
 - 📚 **Template Library** - Pre-built patterns from top-performing prompts
 
+> **💡 Want to build your own skill?** See [**CREATE-YOUR-OWN-SKILL.md**](docs/CREATE-YOUR-OWN-SKILL.md) for a complete guide on turning your data source + API into a Claude Code skill like this one!
+
 ## Quick Start
 
 ### Option 1: Direct API Key (Recommended)
@@ -222,6 +224,26 @@ aroma seems to penetrate the frame.
 
 Constraints:
 No utensils. No text. Maintain appetizing warm color temperature.
+```
+
+## Build Your Own Skill
+
+This plugin demonstrates how to turn a data source (nanobanana trending prompts) + API access (antigravity proxy for Gemini) into a powerful Claude Code skill.
+
+**Want to create your own?** 
+
+📖 Read the comprehensive guide: [**docs/CREATE-YOUR-OWN-SKILL.md**](docs/CREATE-YOUR-OWN-SKILL.md)
+
+Learn how to:
+- Structure a Claude Code plugin with skills
+- Extract patterns from your data source
+- Connect to external APIs via proxy
+- Create commands, agents, and skills
+- Build reusable knowledge modules
+
+This repo serves as a reference implementation for the pattern:
+```
+Data Source + API Access → Claude Code Skill
 ```
 
 ## Credits
