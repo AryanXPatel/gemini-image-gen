@@ -9,7 +9,7 @@ This repository demonstrates converting:
 - **External data/knowledge** → Nanobanana Pro dataset (1,186 viral prompts)
 - **Into a Claude skill** → The `prompt-mastery` skill with optimization rules
 
-### The Three Key Components
+## The Three Key Components
 
 ### 1. External System/API
 - **What it is**: Any external service or IDE (like Google's Antigravity, APIs, databases)
